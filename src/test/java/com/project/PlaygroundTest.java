@@ -64,7 +64,7 @@ public class PlaygroundTest extends CommonSteps {
         htmlBuilder.append("a:hover {color: #1b6ca8;}");
         htmlBuilder.append("</style></head><body>");
 
-        // Content
+        // Content.
         htmlBuilder.append("<h1>Test Execution Results</h1>");
         htmlBuilder.append("<p>Hi All,<br>Below are the test execution results. Click on the Tag link to see detailed scenarios, steps, and failure screenshots.</p>");
         htmlBuilder.append("<p><strong>Browser Type:</strong> ").append(browserType).append("<br>");
