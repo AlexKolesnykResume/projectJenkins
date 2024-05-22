@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.project</groupId>
+    <artifactId>projectJenkinsGithub</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEnsoding>UTF-8</project.reporting.outputEnsoding>
+        <java.version>21</java.version>
+        <maven.build.helper.plugin.version>4.0.0</maven.build.helper.plugin.version>
+
+        <!--Not sure if I need this one-->
+        <maven.plugin.validation>VERBOSE</maven.plugin.validation>
+
+        <Environment>CloudStage</Environment>
+        <Browser>ChromeOnLocal</Browser>
+        <tagToRun>Test_4444</tagToRun>
+        <tagToExclude>Test_44442</tagToExclude>
+        <enableParallel>true</enableParallel>
+        <forkCount>30</forkCount>
+        <cucumberPlugin>json:target/generated-test-sources/jsonReports/cucumber-report.json,
+            com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:
+        </cucumberPlugin>
+
+        <selenium.version>4.13.0</selenium.version>
+        <junit.version>5.10.0</junit.version>
+        <cucumber.version>7.14.0</cucumber.version>
+        <cucumber.reporting.version>5.7.6</cucumber.reporting.version>
+        <junit.platform.version>1.10.0</junit.platform.version>
+        <log4j.version>2.18.0</log4j.version>
+        <rest.assured.version>5.3.1</rest.assured.version>
+        <jackson.version>2.14.3</jackson.version>
+        <apache.poi.version>5.2.4</apache.poi.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>${selenium.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-java</artifactId>
+            <version>${cucumber.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+<!--        &lt;!&ndash;IMPORTANT: This dependency uses JUnit4 -> use if you need old runner test class&ndash;&gt;-->
+<!--        <dependency>-->
+<!--            <groupId>io.cucumber</groupId>-->
+<!--            <artifactId>cucumber-junit</artifactId>-->
+<!--            <version>${cucumber.version}</version>-->
+<!--            <scope>test</scope>-->
+<!--        </dependency>-->
+
+        <!--IMPORTANT: For parallel execution in the current setup | This dependency provides JUnit5 implementation-->
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-junit-platform-engine</artifactId>
+            <version>${cucumber.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!--IMPORTANT: For running in parallel in the current setup, otherwise it will run once in parallel and another time in sequence-->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!--IMPORTANT: For executing tests from command line outside IDE i.e. Jenkins ${junit-platform.version}-->
+        <!--IMPORTANT: Leave commented until needed-->
+        <!--        <dependency>-->
+        <!--            <groupId>org.junit.platform</groupId>-->
+        <!--            <artifactId>junit-platform-console</artifactId>-->
+        <!--            <version>${junit.platform.version}</version>-->
+        <!--            <scope>test</scope>-->
+        <!--        </dependency>-->
+
+        <!--IMPORTANT: For managing test suites for parallel running (cannot achieve parallelisms without it) ${junit-platform.version}-->
+        <dependency>
+            <groupId>org.junit.platform</groupId>
+            <artifactId>junit-platform-suite</artifactId>
+            <version>${junit.platform.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!--IMPORTANT: For building custom runners using Launcher-->
+        <!--IMPORTANT: Might need this one when running test from Jenkins (not affecting sequence or parallel execution in local IDE) ${junit-platform.version}-->
+        <!--IMPORTANT: Leave commented until needed-->
+        <!--        <dependency>-->
+        <!--            <groupId>org.junit.platform</groupId>-->
+        <!--            <artifactId>junit-platform-launcher</artifactId>-->
+        <!--            <version>${junit.platform.version}</version>-->
+        <!--            <scope>test</scope>-->
+        <!--        </dependency>-->
+
+        <!-- IMPORTANT: This is the first report: Not sure if needed -->
+        <dependency>
+            <groupId>net.masterthought</groupId>
+            <artifactId>cucumber-reporting</artifactId>
+            <version>${cucumber.reporting.version}</version>
+        </dependency>
+        <!-- IMPORTANT: This is the second report: Not sure if needed -->
+        <dependency>
+            <groupId>com.trivago.rta</groupId>
+            <artifactId>cluecumber-report-plugin</artifactId>
+            <version>2.9.4</version>
+        </dependency>
+
+        <!--IMPORTANT: These 2 dependencies are for logs -> log4j2 -->
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>${log4j.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-api</artifactId>
+            <version>${log4j.version}</version>
+        </dependency>
+
+        <!-- IMPORTANT: These 2 libraries are used for reading and writing excel files -->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi</artifactId>
+            <version>${apache.poi.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>${apache.poi.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>xml-apis</groupId>
+                    <artifactId>xml-apis</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <!-- IMPORTANT: This dependency is for RestAssured libraries -->
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>rest-assured</artifactId>
+            <version>${rest.assured.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.28</version>
+        </dependency>
+
+        <!-- IMPORTANT: These 3 dependencies are for working with JSON objects and deserialization: -->
+        <!-- IMPORTANT: 1 and 2 are needed, 3 you can comment because is for annotations-->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-annotations</artifactId>
+            <version>${jackson.version}</version>
+        </dependency>
+
+        <!--IMPORTANT: This dependency is used for the SSH class-->
+        <dependency>
+            <groupId>com.jcraft</groupId>
+            <artifactId>jsch</artifactId>
+            <version>0.1.55</version>
+        </dependency>
+
+        <!--IMPORTANT: This dependency is used for the IntelliJ's annotations-->
+        <dependency>
+            <groupId>org.jetbrains</groupId>
+            <artifactId>annotations</artifactId>
+            <version>24.0.1</version>
+            <scope>compile</scope>
+        </dependency>
+
+        <!--IMPORTANT: This dependency is used for the extent report-->
+        <dependency>
+            <groupId>com.aventstack</groupId>
+            <artifactId>extentreports</artifactId>
+            <version>5.0.9</version>
+        </dependency>
+
+        <!-- IMPORTANT: This dependency is user for BETTER extent report -->
+        <dependency>
+            <groupId>tech.grasshopper</groupId>
+            <artifactId>extentreports-cucumber7-adapter</artifactId>
+            <version>1.13.0</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- IMPORTANT: Email dependency -->
+        <dependency>
+            <groupId>com.sun.mail</groupId>
+            <artifactId>jakarta.mail</artifactId>
+            <version>2.0.1</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <!-- IMPORTANT: Don't delete this plugin, will show an error in the maven console -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.11.0</version>
+                <configuration>
+                    <!-- Compiler configuration -->
+                </configuration>
+            </plugin>
+
+            <!-- IMPORTANT: Don't delete this plugin, will show an error in the maven console -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+                <version>3.3.1</version>
+                <configuration>
+                    <!-- Resources plugin configuration -->
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-site-plugin</artifactId>
+                <version>4.0.0-M1</version>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-project-info-reports-plugin</artifactId>
+                <version>3.4.5</version>
+            </plugin>
+
+            <!-- IMPORTANT: This plugin is the control center of tests -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.1.2</version>
+                <configuration>
+                    <testFailureIgnore>true</testFailureIgnore>
+                    <groups>${tagToRun}</groups>
+                    <!--IMPORTANT: with excludedGroups you can exclude tags-->
+                    <excludedGroups>${tagToExclude}</excludedGroups>
+                    <!--IMPORTANT: Configure system properties for parallel execution -->
+                    <systemPropertyVariables>
+                        <!--IMPORTANT: This parameters can be passed in the junit-platform.properties-->
+                        <cucumber.publish.quiet>true</cucumber.publish.quiet>
+                        <cucumber.execution.parallel.enabled>${enableParallel}</cucumber.execution.parallel.enabled>
+                        <cucumber.execution.parallel.mode.default>concurrent</cucumber.execution.parallel.mode.default>
+                        <cucumber.execution.parallel.config.strategy>fixed</cucumber.execution.parallel.config.strategy>
+                        <cucumber.execution.parallel.config.fixed.parallelism>${forkCount}
+                        </cucumber.execution.parallel.config.fixed.parallelism>
+                        <cucumber.execution.parallel.config.fixed.max-pool-size>${forkCount}
+                        </cucumber.execution.parallel.config.fixed.max-pool-size>
+                        <cucumber.plugin>${cucumberPlugin}</cucumber.plugin>
+                    </systemPropertyVariables>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>acceptance-test</id>
+                        <phase>integration-test</phase>
+                        <goals>
+                            <goal>test</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <!-- IMPORTANT: This is the first report -->
+            <plugin>
+                <groupId>net.masterthought</groupId>
+                <artifactId>maven-cucumber-reporting</artifactId>
+                <version>${cucumber.reporting.version}</version>
+                <executions>
+                    <execution>
+                        <id>execution</id>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                        <configuration>
+                            <projectName>My project</projectName>
+                            <!-- optional, per documentation set this to "true" to bypass generation of Cucumber Reports entirely, defaults to false if not specified -->
+                            <skip>false</skip>
+                            <!-- optional, defaults to outputDirectory if not specified -->
+                            <inputDirectory>${project.build.directory}/generated-test-sources/jsonReports
+                            </inputDirectory>
+                            <!-- output directory for the generated report -->
+                            <outputDirectory>${project.build.directory}/generated-report/cucumberReport1
+                            </outputDirectory>
+                            <jsonFiles>
+                                <!-- supports wildcard or name pattern -->
+                                <param>**/*.json</param>
+                            </jsonFiles>
+                            <!-- optional, defaults to outputDirectory if not specified -->
+                            <!-- <classificationDirectory>${project.build.directory}/classifications</classificationDirectory>-->
+                            <!-- <classificationFiles>-->
+                            <!-- supports wildcard or name pattern -->
+                            <!-- <param>sample.properties</param>-->
+                            <!-- <param>other.properties</param>-->
+                            <!-- </classificationFiles>-->
+                            <!-- <parallelTesting>true</parallelTesting>-->
+                            <!-- optional, set true to group features by its Ids -->
+                            <mergeFeaturesById>false</mergeFeaturesById>
+                            <!-- optional, set true to get a final report with latest results of the same test from different test runs -->
+                            <mergeFeaturesWithRetest>false</mergeFeaturesWithRetest>
+                            <!-- optional, set true to fail build on test failures -->
+                            <checkBuildResult>false</checkBuildResult>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <!-- IMPORTANT: This is the second report -->
+            <plugin>
+                <groupId>com.trivago.rta</groupId>
+                <artifactId>cluecumber-report-plugin</artifactId>
+                <version>2.9.4</version>
+                <executions>
+                    <execution>
+                        <id>report</id>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>reporting</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <customPageTitle>Cucumber Report</customPageTitle>
+                    <sourceJsonReportDirectory>${project.build.directory}/generated-test-sources/jsonReports
+                    </sourceJsonReportDirectory>
+                    <generatedHtmlReportDirectory>${project.build.directory}/generated-report/cucumberReport2
+                    </generatedHtmlReportDirectory>
+                    <failScenariosOnPendingOrUndefinedSteps>true</failScenariosOnPendingOrUndefinedSteps>
+                    <expandBeforeAfterHooks>true</expandBeforeAfterHooks>
+                    <expandStepHooks>true</expandStepHooks>
+                    <expandDocStrings>true</expandDocStrings>
+                </configuration>
+            </plugin>
+
+            <!-- IMPORTANT: This plugin is use only to print those parameters. Use when you need to print something with maven-->
+<!--            <plugin>-->
+<!--                <groupId>org.apache.maven.plugins</groupId>-->
+<!--                <artifactId>maven-antrun-plugin</artifactId>-->
+<!--                <version>3.1.0</version>-->
+<!--                <executions>-->
+<!--                    <execution>-->
+<!--                        <phase>install</phase>-->
+<!--                        <goals>-->
+<!--                            <goal>run</goal>-->
+<!--                        </goals>-->
+<!--                        <configuration>-->
+<!--                            <target>-->
+<!--                                <echo>[MAVEN_OPTIONS_BROWSER]${Browser}</echo>-->
+<!--                                <echo>[MAVEN_OPTIONS_ENVIRONMENT]${Environment}</echo>-->
+<!--                            </target>-->
+<!--                        </configuration>-->
+<!--                    </execution>-->
+<!--                </executions>-->
+<!--            </plugin>-->
+        </plugins>
+    </build>
+</project>

@@ -1,0 +1,1017 @@
+[INFO] 10:31:11 Hooks.beforeEachScenario[42] - ###### Scenario: [Nr1] ######
+[INFO] 10:31:11 Hooks.beforeEachScenario[42] - ###### Scenario: [Nr1] ######
+[WARN] 10:31:11 SystemVsConfigProp.getProperty[26] - Value for property [Browser] is [ChromeOnLocal]
+[WARN] 10:31:11 SystemVsConfigProp.getProperty[26] - Value for property [Browser] is [ChromeOnLocal]
+[WARN] 10:31:11 SystemVsConfigProp.getProperty[26] - Value for property [Environment] is [CloudStage]
+[WARN] 10:31:11 SystemVsConfigProp.getProperty[26] - Value for property [Environment] is [CloudStage]
+[INFO] 10:31:11 Hooks.beforeEachScenario[58] - browserName: [ChromeOnLocal]
+[INFO] 10:31:11 Hooks.beforeEachScenario[58] - browserName: [ChromeOnLocal]
+[INFO] 10:31:11 Hooks.beforeEachScenario[59] - environmentName: [CloudStage]
+[INFO] 10:31:11 Hooks.beforeEachScenario[59] - environmentName: [CloudStage]
+[WARN] 10:31:20 SystemVsConfigProp.getProperty[26] - Value for property [GOOGLEURL] is [https://www.google.com]
+[WARN] 10:31:20 SystemVsConfigProp.getProperty[26] - Value for property [GOOGLEURL] is [https://www.google.com]
+[INFO] 10:31:20 GoogleSearchPage.loadPage[22] - Successfully loaded Google page
+[INFO] 10:31:20 GoogleSearchPage.loadPage[24] - Session ID is: [8b4ed6dbb90b39b1ed665fa9ac8c0419]
+[INFO] 10:31:21 GoogleSearchPage.loadPage[22] - Successfully loaded Google page
+[INFO] 10:31:21 GoogleSearchPage.loadPage[24] - Session ID is: [3208ae39d5f4896b28770615dc7442a4]
+[INFO] 10:31:21 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 10:31:21 SeleniumUtils.clearData[267] - Field [searchBox] has been cleared successfully
+[INFO] 10:31:21 Removed the highlight of the element [searchBox]
+[INFO] 10:31:21 SeleniumUtils.enterData[292] - Entering the text [iPhone 15] in the field [searchBox]
+[INFO] 10:31:21 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 10:31:21 SeleniumUtils.clearData[267] - Field [searchBox] has been cleared successfully
+[INFO] 10:31:21 Removed the highlight of the element [searchBox]
+[INFO] 10:31:21 Removed the highlight of the element [searchBox]
+[INFO] 10:31:21 SeleniumUtils.enterData[292] - Entering the text [iPhone 15] in the field [searchBox]
+[INFO] 10:31:21 Removed the highlight of the element [searchBox]
+[INFO] 10:31:21 SeleniumUtils.click[152] - Clicked [searchButton] element
+[INFO] 10:31:21 SeleniumUtils.click[152] - Clicked [searchButton] element
+[INFO] 10:31:23 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 10:31:23 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[ERROR] 10:31:33 SeleniumUtils.highlightElement[181] - Cannot highlight the element [shoppingHeader]. Exception: no such element: Unable to locate element: {"method":"xpath","selector":"(//span[contains(text(), 'Shopping') and @jsname='pIvPIe']) | (//a[text()[contains(.,'Shopping')]])"}
+  (Session info: chrome=124.0.6367.209)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8b4ed6dbb90b39b1ed665fa9ac8c0419, findElement {using=xpath, value=(//span[contains(text(), 'Shopping') and @jsname='pIvPIe']) | (//a[text()[contains(.,'Shopping')]])}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.209, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\ALEXAN~1.AND\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53147}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53147/devtoo..., se:cdpVersion: 124.0.6367.209, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8b4ed6dbb90b39b1ed665fa9ac8c0419
+[ERROR] 10:31:33 SeleniumUtils.highlightElement[181] - Cannot highlight the element [shoppingHeader]. Exception: no such element: Unable to locate element: {"method":"xpath","selector":"(//span[contains(text(), 'Shopping') and @jsname='pIvPIe']) | (//a[text()[contains(.,'Shopping')]])"}
+  (Session info: chrome=124.0.6367.209)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3208ae39d5f4896b28770615dc7442a4, findElement {using=xpath, value=(//span[contains(text(), 'Shopping') and @jsname='pIvPIe']) | (//a[text()[contains(.,'Shopping')]])}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.209, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\ALEXAN~1.AND\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53146}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53146/devtoo..., se:cdpVersion: 124.0.6367.209, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3208ae39d5f4896b28770615dc7442a4
+[INFO] 10:31:36 Hooks.afterEachScenario[82] - !!!!! Scenario Name: [Nr1] Status -- [Fail] !!!!!
+[INFO] 10:31:36 Hooks.afterEachScenario[82] - !!!!! Scenario Name: [Nr1] Status -- [Fail] !!!!!
+[INFO] 10:31:36 Hooks.afterAll[105] - Report flush.
+[INFO] 10:31:36 Hooks.afterAll[106] - [TagName] is [@Test_4444]]
+[INFO] 10:31:36 Hooks.afterAll[107] - [DeploymentVersion] is [dgw536454ww6fds]
+[INFO] 10:31:36 Hooks.afterAll[108] - [TotalTests] is [2]
+[INFO] 10:31:36 Hooks.afterAll[109] - [PassedTests] is [0]
+[INFO] 10:31:36 Hooks.afterAll[110] - [SkippedTests] is [0]
+[INFO] 10:31:36 Hooks.afterAll[111] - [FailedTests] is [2]
+[INFO] 10:31:36 Hooks.afterAll[118] - [BuildStatus] is [Still Failing]
+[ERROR] 10:31:37 PlaygroundTest.sendEmail[220] - Failed to send email. Exception: IOException while sending message
+[INFO] 10:32:10 Hooks.beforeEachScenario[42] - ###### Scenario: [Nr1] ######
+[INFO] 10:32:10 Hooks.beforeEachScenario[42] - ###### Scenario: [Nr1] ######
+[WARN] 10:32:10 SystemVsConfigProp.getProperty[26] - Value for property [Browser] is [ChromeOnLocal]
+[WARN] 10:32:10 SystemVsConfigProp.getProperty[26] - Value for property [Browser] is [ChromeOnLocal]
+[WARN] 10:32:10 SystemVsConfigProp.getProperty[26] - Value for property [Environment] is [CloudStage]
+[WARN] 10:32:10 SystemVsConfigProp.getProperty[26] - Value for property [Environment] is [CloudStage]
+[INFO] 10:32:10 Hooks.beforeEachScenario[58] - browserName: [ChromeOnLocal]
+[INFO] 10:32:10 Hooks.beforeEachScenario[58] - browserName: [ChromeOnLocal]
+[INFO] 10:32:10 Hooks.beforeEachScenario[59] - environmentName: [CloudStage]
+[INFO] 10:32:10 Hooks.beforeEachScenario[59] - environmentName: [CloudStage]
+[WARN] 10:32:12 SystemVsConfigProp.getProperty[26] - Value for property [GOOGLEURL] is [https://www.google.com]
+[WARN] 10:32:12 SystemVsConfigProp.getProperty[26] - Value for property [GOOGLEURL] is [https://www.google.com]
+[INFO] 10:32:12 GoogleSearchPage.loadPage[22] - Successfully loaded Google page
+[INFO] 10:32:12 GoogleSearchPage.loadPage[24] - Session ID is: [2303605c4788dd4797466b7474ce60b7]
+[INFO] 10:32:13 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 10:32:13 SeleniumUtils.clearData[267] - Field [searchBox] has been cleared successfully
+[INFO] 10:32:13 Removed the highlight of the element [searchBox]
+[INFO] 10:32:13 SeleniumUtils.enterData[292] - Entering the text [iPhone 15] in the field [searchBox]
+[INFO] 10:32:13 GoogleSearchPage.loadPage[22] - Successfully loaded Google page
+[INFO] 10:32:13 GoogleSearchPage.loadPage[24] - Session ID is: [365aff980d705ca8c396ab35eb23453f]
+[INFO] 10:32:13 Removed the highlight of the element [searchBox]
+[INFO] 10:32:13 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 10:32:13 SeleniumUtils.clearData[267] - Field [searchBox] has been cleared successfully
+[INFO] 10:32:13 Removed the highlight of the element [searchBox]
+[INFO] 10:32:13 SeleniumUtils.enterData[292] - Entering the text [iPhone 15] in the field [searchBox]
+[INFO] 10:32:13 SeleniumUtils.click[152] - Clicked [searchButton] element
+[INFO] 10:32:13 Removed the highlight of the element [searchBox]
+[INFO] 10:32:14 SeleniumUtils.click[152] - Clicked [searchButton] element
+[INFO] 10:32:16 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 10:32:16 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 10:32:17 SeleniumUtils.click[152] - Clicked [shoppingHeader] element
+[INFO] 10:32:17 GoogleSearchPage.searchOnGoogle[33] - Works as expected!
+[INFO] 10:32:18 SeleniumUtils.getTitle[1297] - Page title is: [iPhone 15 - Google Shopping]
+[INFO] 10:32:18 Hooks.afterEachScenario[82] - !!!!! Scenario Name: [Nr1] Status -- [Pass] !!!!!
+[ERROR] 10:32:26 SeleniumUtils.highlightElement[181] - Cannot highlight the element [shoppingHeader]. Exception: no such element: Unable to locate element: {"method":"xpath","selector":"(//span[contains(text(), 'Shopping') and @jsname='pIvPIe']) | (//a[text()[contains(.,'Shopping')]])"}
+  (Session info: chrome=124.0.6367.209)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2303605c4788dd4797466b7474ce60b7, findElement {using=xpath, value=(//span[contains(text(), 'Shopping') and @jsname='pIvPIe']) | (//a[text()[contains(.,'Shopping')]])}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.209, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\ALEXAN~1.AND\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53256}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53256/devtoo..., se:cdpVersion: 124.0.6367.209, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2303605c4788dd4797466b7474ce60b7
+[INFO] 10:32:29 Hooks.afterEachScenario[82] - !!!!! Scenario Name: [Nr1] Status -- [Fail] !!!!!
+[INFO] 10:32:29 Hooks.afterAll[105] - Report flush.
+[INFO] 10:32:29 Hooks.afterAll[106] - [TagName] is [@Test_4444]]
+[INFO] 10:32:29 Hooks.afterAll[107] - [DeploymentVersion] is [dgw536454ww6fds]
+[INFO] 10:32:29 Hooks.afterAll[108] - [TotalTests] is [2]
+[INFO] 10:32:29 Hooks.afterAll[109] - [PassedTests] is [1]
+[INFO] 10:32:29 Hooks.afterAll[110] - [SkippedTests] is [0]
+[INFO] 10:32:29 Hooks.afterAll[111] - [FailedTests] is [1]
+[INFO] 10:32:29 Hooks.afterAll[118] - [BuildStatus] is [Still Failing]
+[ERROR] 10:32:29 PlaygroundTest.sendEmail[220] - Failed to send email. Exception: IOException while sending message
+[INFO] 10:32:41 Hooks.beforeEachScenario[42] - ###### Scenario: [Nr1] ######
+[INFO] 10:32:41 Hooks.beforeEachScenario[42] - ###### Scenario: [Nr1] ######
+[WARN] 10:32:41 SystemVsConfigProp.getProperty[26] - Value for property [Browser] is [ChromeOnLocal]
+[WARN] 10:32:41 SystemVsConfigProp.getProperty[26] - Value for property [Browser] is [ChromeOnLocal]
+[WARN] 10:32:41 SystemVsConfigProp.getProperty[26] - Value for property [Environment] is [CloudStage]
+[WARN] 10:32:41 SystemVsConfigProp.getProperty[26] - Value for property [Environment] is [CloudStage]
+[INFO] 10:32:41 Hooks.beforeEachScenario[58] - browserName: [ChromeOnLocal]
+[INFO] 10:32:41 Hooks.beforeEachScenario[58] - browserName: [ChromeOnLocal]
+[INFO] 10:32:41 Hooks.beforeEachScenario[59] - environmentName: [CloudStage]
+[INFO] 10:32:41 Hooks.beforeEachScenario[59] - environmentName: [CloudStage]
+[WARN] 10:32:42 SystemVsConfigProp.getProperty[26] - Value for property [GOOGLEURL] is [https://www.google.com]
+[WARN] 10:32:42 SystemVsConfigProp.getProperty[26] - Value for property [GOOGLEURL] is [https://www.google.com]
+[INFO] 10:32:43 GoogleSearchPage.loadPage[22] - Successfully loaded Google page
+[INFO] 10:32:43 GoogleSearchPage.loadPage[24] - Session ID is: [9771540c660213c90f39a8cecceb5771]
+[INFO] 10:32:43 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 10:32:43 SeleniumUtils.clearData[267] - Field [searchBox] has been cleared successfully
+[INFO] 10:32:43 Removed the highlight of the element [searchBox]
+[INFO] 10:32:43 SeleniumUtils.enterData[292] - Entering the text [iPhone 15] in the field [searchBox]
+[INFO] 10:32:43 Removed the highlight of the element [searchBox]
+[INFO] 10:32:43 SeleniumUtils.click[152] - Clicked [searchButton] element
+[INFO] 10:32:45 GoogleSearchPage.loadPage[22] - Successfully loaded Google page
+[INFO] 10:32:45 GoogleSearchPage.loadPage[24] - Session ID is: [098d59f45b6a19ee777b41e97023b223]
+[INFO] 10:32:45 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 10:32:45 SeleniumUtils.clearData[267] - Field [searchBox] has been cleared successfully
+[INFO] 10:32:45 Removed the highlight of the element [searchBox]
+[INFO] 10:32:45 SeleniumUtils.enterData[292] - Entering the text [iPhone 15] in the field [searchBox]
+[INFO] 10:32:45 Removed the highlight of the element [searchBox]
+[INFO] 10:32:45 SeleniumUtils.click[152] - Clicked [searchButton] element
+[INFO] 10:32:45 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 10:32:47 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[ERROR] 10:32:55 SeleniumUtils.highlightElement[181] - Cannot highlight the element [shoppingHeader]. Exception: no such element: Unable to locate element: {"method":"xpath","selector":"(//span[contains(text(), 'Shopping') and @jsname='pIvPIe']) | (//a[text()[contains(.,'Shopping')]])"}
+  (Session info: chrome=124.0.6367.209)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9771540c660213c90f39a8cecceb5771, findElement {using=xpath, value=(//span[contains(text(), 'Shopping') and @jsname='pIvPIe']) | (//a[text()[contains(.,'Shopping')]])}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.209, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\ALEXAN~1.AND\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53355}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53355/devtoo..., se:cdpVersion: 124.0.6367.209, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9771540c660213c90f39a8cecceb5771
+[ERROR] 10:32:57 SeleniumUtils.highlightElement[181] - Cannot highlight the element [shoppingHeader]. Exception: no such element: Unable to locate element: {"method":"xpath","selector":"(//span[contains(text(), 'Shopping') and @jsname='pIvPIe']) | (//a[text()[contains(.,'Shopping')]])"}
+  (Session info: chrome=124.0.6367.209)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [098d59f45b6a19ee777b41e97023b223, findElement {using=xpath, value=(//span[contains(text(), 'Shopping') and @jsname='pIvPIe']) | (//a[text()[contains(.,'Shopping')]])}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.209, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\ALEXAN~1.AND\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53356}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53356/devtoo..., se:cdpVersion: 124.0.6367.209, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 098d59f45b6a19ee777b41e97023b223
+[INFO] 10:32:58 Hooks.afterEachScenario[82] - !!!!! Scenario Name: [Nr1] Status -- [Fail] !!!!!
+[INFO] 10:32:59 Hooks.afterEachScenario[82] - !!!!! Scenario Name: [Nr1] Status -- [Fail] !!!!!
+[INFO] 10:32:59 Hooks.afterAll[105] - Report flush.
+[INFO] 10:32:59 Hooks.afterAll[106] - [TagName] is [@Test_4444]]
+[INFO] 10:32:59 Hooks.afterAll[107] - [DeploymentVersion] is [dgw536454ww6fds]
+[INFO] 10:32:59 Hooks.afterAll[108] - [TotalTests] is [1]
+[INFO] 10:32:59 Hooks.afterAll[109] - [PassedTests] is [0]
+[INFO] 10:32:59 Hooks.afterAll[110] - [SkippedTests] is [0]
+[INFO] 10:32:59 Hooks.afterAll[111] - [FailedTests] is [2]
+[INFO] 10:32:59 Hooks.afterAll[118] - [BuildStatus] is [Still Failing]
+[ERROR] 10:33:00 PlaygroundTest.sendEmail[220] - Failed to send email. Exception: IOException while sending message
+[INFO] 10:33:15 Hooks.beforeEachScenario[42] - ###### Scenario: [Nr1] ######
+[INFO] 10:33:15 Hooks.beforeEachScenario[42] - ###### Scenario: [Nr1] ######
+[WARN] 10:33:15 SystemVsConfigProp.getProperty[26] - Value for property [Browser] is [ChromeOnLocal]
+[WARN] 10:33:15 SystemVsConfigProp.getProperty[26] - Value for property [Browser] is [ChromeOnLocal]
+[WARN] 10:33:15 SystemVsConfigProp.getProperty[26] - Value for property [Environment] is [CloudStage]
+[WARN] 10:33:15 SystemVsConfigProp.getProperty[26] - Value for property [Environment] is [CloudStage]
+[INFO] 10:33:15 Hooks.beforeEachScenario[58] - browserName: [ChromeOnLocal]
+[INFO] 10:33:15 Hooks.beforeEachScenario[58] - browserName: [ChromeOnLocal]
+[INFO] 10:33:15 Hooks.beforeEachScenario[59] - environmentName: [CloudStage]
+[INFO] 10:33:15 Hooks.beforeEachScenario[59] - environmentName: [CloudStage]
+[WARN] 10:33:17 SystemVsConfigProp.getProperty[26] - Value for property [GOOGLEURL] is [https://www.google.com]
+[WARN] 10:33:17 SystemVsConfigProp.getProperty[26] - Value for property [GOOGLEURL] is [https://www.google.com]
+[INFO] 10:33:17 GoogleSearchPage.loadPage[22] - Successfully loaded Google page
+[INFO] 10:33:17 GoogleSearchPage.loadPage[24] - Session ID is: [27b7fc30876620bc7596d4c1857f3b5a]
+[INFO] 10:33:18 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 10:33:18 SeleniumUtils.clearData[267] - Field [searchBox] has been cleared successfully
+[INFO] 10:33:18 Removed the highlight of the element [searchBox]
+[INFO] 10:33:18 GoogleSearchPage.loadPage[22] - Successfully loaded Google page
+[INFO] 10:33:18 GoogleSearchPage.loadPage[24] - Session ID is: [3068c17c6c08def37f01406ee71f6776]
+[INFO] 10:33:18 SeleniumUtils.enterData[292] - Entering the text [iPhone 15] in the field [searchBox]
+[INFO] 10:33:18 Removed the highlight of the element [searchBox]
+[INFO] 10:33:18 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 10:33:18 SeleniumUtils.clearData[267] - Field [searchBox] has been cleared successfully
+[INFO] 10:33:18 Removed the highlight of the element [searchBox]
+[INFO] 10:33:18 SeleniumUtils.enterData[292] - Entering the text [iPhone 15] in the field [searchBox]
+[INFO] 10:33:18 Removed the highlight of the element [searchBox]
+[INFO] 10:33:18 SeleniumUtils.click[152] - Clicked [searchButton] element
+[INFO] 10:33:19 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 10:33:19 SeleniumUtils.click[152] - Clicked [searchButton] element
+[INFO] 10:33:19 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 10:33:20 SeleniumUtils.click[152] - Clicked [shoppingHeader] element
+[INFO] 10:33:20 GoogleSearchPage.searchOnGoogle[33] - Works as expected!
+[INFO] 10:33:20 SeleniumUtils.getTitle[1297] - Page title is: [iPhone 15 - Google Shopping]
+[INFO] 10:33:21 Hooks.afterEachScenario[82] - !!!!! Scenario Name: [Nr1] Status -- [Pass] !!!!!
+[ERROR] 10:33:29 SeleniumUtils.highlightElement[181] - Cannot highlight the element [shoppingHeader]. Exception: no such element: Unable to locate element: {"method":"xpath","selector":"(//span[contains(text(), 'Shopping') and @jsname='pIvPIe']) | (//a[text()[contains(.,'Shopping')]])"}
+  (Session info: chrome=124.0.6367.209)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [27b7fc30876620bc7596d4c1857f3b5a, findElement {using=xpath, value=(//span[contains(text(), 'Shopping') and @jsname='pIvPIe']) | (//a[text()[contains(.,'Shopping')]])}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.209, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\ALEXAN~1.AND\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53446}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53446/devtoo..., se:cdpVersion: 124.0.6367.209, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 27b7fc30876620bc7596d4c1857f3b5a
+[INFO] 10:33:32 Hooks.afterEachScenario[82] - !!!!! Scenario Name: [Nr1] Status -- [Fail] !!!!!
+[INFO] 10:33:32 Hooks.afterAll[105] - Report flush.
+[INFO] 10:33:32 Hooks.afterAll[106] - [TagName] is [@Test_4444]]
+[INFO] 10:33:32 Hooks.afterAll[107] - [DeploymentVersion] is [dgw536454ww6fds]
+[INFO] 10:33:32 Hooks.afterAll[108] - [TotalTests] is [2]
+[INFO] 10:33:32 Hooks.afterAll[109] - [PassedTests] is [1]
+[INFO] 10:33:32 Hooks.afterAll[110] - [SkippedTests] is [0]
+[INFO] 10:33:32 Hooks.afterAll[111] - [FailedTests] is [1]
+[INFO] 10:33:32 Hooks.afterAll[118] - [BuildStatus] is [Still Failing]
+[ERROR] 10:33:32 PlaygroundTest.sendEmail[220] - Failed to send email. Exception: IOException while sending message
+[INFO] 10:33:42 Hooks.beforeEachScenario[42] - ###### Scenario: [Nr1] ######
+[INFO] 10:33:42 Hooks.beforeEachScenario[42] - ###### Scenario: [Nr1] ######
+[WARN] 10:33:42 SystemVsConfigProp.getProperty[26] - Value for property [Browser] is [ChromeOnLocal]
+[WARN] 10:33:42 SystemVsConfigProp.getProperty[26] - Value for property [Browser] is [ChromeOnLocal]
+[WARN] 10:33:42 SystemVsConfigProp.getProperty[26] - Value for property [Environment] is [CloudStage]
+[WARN] 10:33:42 SystemVsConfigProp.getProperty[26] - Value for property [Environment] is [CloudStage]
+[INFO] 10:33:42 Hooks.beforeEachScenario[58] - browserName: [ChromeOnLocal]
+[INFO] 10:33:42 Hooks.beforeEachScenario[58] - browserName: [ChromeOnLocal]
+[INFO] 10:33:42 Hooks.beforeEachScenario[59] - environmentName: [CloudStage]
+[INFO] 10:33:42 Hooks.beforeEachScenario[59] - environmentName: [CloudStage]
+[WARN] 10:33:44 SystemVsConfigProp.getProperty[26] - Value for property [GOOGLEURL] is [https://www.google.com]
+[WARN] 10:33:44 SystemVsConfigProp.getProperty[26] - Value for property [GOOGLEURL] is [https://www.google.com]
+[INFO] 10:33:45 GoogleSearchPage.loadPage[22] - Successfully loaded Google page
+[INFO] 10:33:45 GoogleSearchPage.loadPage[24] - Session ID is: [235506cd9397c242bde0487df7e0adfd]
+[INFO] 10:33:45 GoogleSearchPage.loadPage[22] - Successfully loaded Google page
+[INFO] 10:33:45 GoogleSearchPage.loadPage[24] - Session ID is: [a2b10134b029e81d69e7595fc88b24a4]
+[INFO] 10:33:45 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 10:33:45 SeleniumUtils.clearData[267] - Field [searchBox] has been cleared successfully
+[INFO] 10:33:45 Removed the highlight of the element [searchBox]
+[INFO] 10:33:45 SeleniumUtils.enterData[292] - Entering the text [iPhone 15] in the field [searchBox]
+[INFO] 10:33:45 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 10:33:45 SeleniumUtils.clearData[267] - Field [searchBox] has been cleared successfully
+[INFO] 10:33:45 Removed the highlight of the element [searchBox]
+[INFO] 10:33:45 Removed the highlight of the element [searchBox]
+[INFO] 10:33:45 SeleniumUtils.enterData[292] - Entering the text [iPhone 15] in the field [searchBox]
+[INFO] 10:33:45 Removed the highlight of the element [searchBox]
+[INFO] 10:33:45 SeleniumUtils.click[152] - Clicked [searchButton] element
+[INFO] 10:33:45 SeleniumUtils.click[152] - Clicked [searchButton] element
+[INFO] 10:33:47 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 10:33:47 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 10:33:49 SeleniumUtils.click[152] - Clicked [shoppingHeader] element
+[INFO] 10:33:49 GoogleSearchPage.searchOnGoogle[33] - Works as expected!
+[INFO] 10:33:49 SeleniumUtils.getTitle[1297] - Page title is: [iPhone 15 - Google Shopping]
+[INFO] 10:33:49 Hooks.afterEachScenario[82] - !!!!! Scenario Name: [Nr1] Status -- [Pass] !!!!!
+[ERROR] 10:33:57 SeleniumUtils.highlightElement[181] - Cannot highlight the element [shoppingHeader]. Exception: no such element: Unable to locate element: {"method":"xpath","selector":"(//span[contains(text(), 'Shopping') and @jsname='pIvPIe']) | (//a[text()[contains(.,'Shopping')]])"}
+  (Session info: chrome=124.0.6367.209)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a2b10134b029e81d69e7595fc88b24a4, findElement {using=xpath, value=(//span[contains(text(), 'Shopping') and @jsname='pIvPIe']) | (//a[text()[contains(.,'Shopping')]])}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.209, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\ALEXAN~1.AND\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53532}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53532/devtoo..., se:cdpVersion: 124.0.6367.209, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a2b10134b029e81d69e7595fc88b24a4
+[INFO] 10:34:00 Hooks.afterEachScenario[82] - !!!!! Scenario Name: [Nr1] Status -- [Fail] !!!!!
+[INFO] 10:34:00 Hooks.afterAll[105] - Report flush.
+[INFO] 10:34:00 Hooks.afterAll[106] - [TagName] is [@Test_4444]]
+[INFO] 10:34:00 Hooks.afterAll[107] - [DeploymentVersion] is [dgw536454ww6fds]
+[INFO] 10:34:00 Hooks.afterAll[108] - [TotalTests] is [2]
+[INFO] 10:34:00 Hooks.afterAll[109] - [PassedTests] is [1]
+[INFO] 10:34:00 Hooks.afterAll[110] - [SkippedTests] is [0]
+[INFO] 10:34:00 Hooks.afterAll[111] - [FailedTests] is [1]
+[INFO] 10:34:00 Hooks.afterAll[118] - [BuildStatus] is [Still Failing]
+[ERROR] 10:34:00 PlaygroundTest.sendEmail[220] - Failed to send email. Exception: IOException while sending message
+[ERROR] 10:41:11 PlaygroundTest.sendEmail[220] - Failed to send email. Exception: IOException while sending message
+[ERROR] 10:41:28 PlaygroundTest.sendEmail[220] - Failed to send email. Exception: IOException while sending message
+[INFO] 10:50:37 Hooks.beforeEachScenario[42] - ###### Scenario: [Nr1] ######
+[INFO] 10:50:37 Hooks.beforeEachScenario[42] - ###### Scenario: [Nr1] ######
+[WARN] 10:50:37 SystemVsConfigProp.getProperty[26] - Value for property [Browser] is [ChromeOnLocal]
+[WARN] 10:50:37 SystemVsConfigProp.getProperty[26] - Value for property [Browser] is [ChromeOnLocal]
+[WARN] 10:50:37 SystemVsConfigProp.getProperty[26] - Value for property [Environment] is [CloudStage]
+[WARN] 10:50:37 SystemVsConfigProp.getProperty[26] - Value for property [Environment] is [CloudStage]
+[INFO] 10:50:37 Hooks.beforeEachScenario[58] - browserName: [ChromeOnLocal]
+[INFO] 10:50:37 Hooks.beforeEachScenario[58] - browserName: [ChromeOnLocal]
+[INFO] 10:50:37 Hooks.beforeEachScenario[59] - environmentName: [CloudStage]
+[INFO] 10:50:37 Hooks.beforeEachScenario[59] - environmentName: [CloudStage]
+[WARN] 10:50:39 SystemVsConfigProp.getProperty[26] - Value for property [GOOGLEURL] is [https://www.google.com]
+[WARN] 10:50:39 SystemVsConfigProp.getProperty[26] - Value for property [GOOGLEURL] is [https://www.google.com]
+[INFO] 10:50:40 GoogleSearchPage.loadPage[22] - Successfully loaded Google page
+[INFO] 10:50:40 GoogleSearchPage.loadPage[24] - Session ID is: [5fda71a8ab3148a6e7fca0d04267bd9c]
+[INFO] 10:50:40 GoogleSearchPage.loadPage[22] - Successfully loaded Google page
+[INFO] 10:50:40 GoogleSearchPage.loadPage[24] - Session ID is: [986c334e53bf3abf6a22436c70b77e62]
+[INFO] 10:50:40 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 10:50:40 SeleniumUtils.clearData[267] - Field [searchBox] has been cleared successfully
+[INFO] 10:50:40 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 10:50:40 Removed the highlight of the element [searchBox]
+[INFO] 10:50:40 SeleniumUtils.enterData[292] - Entering the text [iPhone 15] in the field [searchBox]
+[INFO] 10:50:40 SeleniumUtils.clearData[267] - Field [searchBox] has been cleared successfully
+[INFO] 10:50:40 Removed the highlight of the element [searchBox]
+[INFO] 10:50:40 SeleniumUtils.enterData[292] - Entering the text [iPhone 15] in the field [searchBox]
+[INFO] 10:50:40 Removed the highlight of the element [searchBox]
+[INFO] 10:50:40 Removed the highlight of the element [searchBox]
+[INFO] 10:50:40 SeleniumUtils.click[152] - Clicked [searchButton] element
+[INFO] 10:50:40 SeleniumUtils.click[152] - Clicked [searchButton] element
+[INFO] 10:50:41 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 10:50:42 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 10:50:43 SeleniumUtils.click[152] - Clicked [shoppingHeader] element
+[INFO] 10:50:43 GoogleSearchPage.searchOnGoogle[33] - Works as expected!
+[INFO] 10:50:43 SeleniumUtils.getTitle[1297] - Page title is: [iPhone 15 - Google Shopping]
+[INFO] 10:50:43 Hooks.afterEachScenario[82] - !!!!! Scenario Name: [Nr1] Status -- [Pass] !!!!!
+[ERROR] 10:50:52 SeleniumUtils.highlightElement[181] - Cannot highlight the element [shoppingHeader]. Exception: no such element: Unable to locate element: {"method":"xpath","selector":"(//span[contains(text(), 'Shopping') and @jsname='pIvPIe']) | (//a[text()[contains(.,'Shopping')]])"}
+  (Session info: chrome=124.0.6367.209)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5fda71a8ab3148a6e7fca0d04267bd9c, findElement {using=xpath, value=(//span[contains(text(), 'Shopping') and @jsname='pIvPIe']) | (//a[text()[contains(.,'Shopping')]])}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.209, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\ALEXAN~1.AND\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54040}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54040/devtoo..., se:cdpVersion: 124.0.6367.209, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5fda71a8ab3148a6e7fca0d04267bd9c
+[INFO] 10:50:55 Hooks.afterEachScenario[82] - !!!!! Scenario Name: [Nr1] Status -- [Fail] !!!!!
+[INFO] 10:50:55 Hooks.afterAll[105] - Report flush.
+[INFO] 10:50:55 Hooks.afterAll[106] - [TagName] is [@Test_4444]]
+[INFO] 10:50:55 Hooks.afterAll[107] - [DeploymentVersion] is [dgw536454ww6fds]
+[INFO] 10:50:55 Hooks.afterAll[108] - [TotalTests] is [2]
+[INFO] 10:50:55 Hooks.afterAll[109] - [PassedTests] is [1]
+[INFO] 10:50:55 Hooks.afterAll[110] - [SkippedTests] is [0]
+[INFO] 10:50:55 Hooks.afterAll[111] - [FailedTests] is [1]
+[INFO] 10:50:55 Hooks.afterAll[118] - [BuildStatus] is [Still Failing]
+[ERROR] 10:50:55 PlaygroundTest.sendEmail[220] - Failed to send email. Exception: IOException while sending message
+[INFO] 11:28:18 Hooks.beforeEachScenario[42] - ###### Scenario: [Nr1] ######
+[INFO] 11:28:18 Hooks.beforeEachScenario[42] - ###### Scenario: [Nr1] ######
+[WARN] 11:28:18 SystemVsConfigProp.getProperty[26] - Value for property [Browser] is [ChromeOnLocal]
+[WARN] 11:28:18 SystemVsConfigProp.getProperty[26] - Value for property [Browser] is [ChromeOnLocal]
+[WARN] 11:28:18 SystemVsConfigProp.getProperty[26] - Value for property [Environment] is [CloudStage]
+[WARN] 11:28:18 SystemVsConfigProp.getProperty[26] - Value for property [Environment] is [CloudStage]
+[INFO] 11:28:18 Hooks.beforeEachScenario[58] - browserName: [ChromeOnLocal]
+[INFO] 11:28:18 Hooks.beforeEachScenario[58] - browserName: [ChromeOnLocal]
+[INFO] 11:28:18 Hooks.beforeEachScenario[59] - environmentName: [CloudStage]
+[INFO] 11:28:18 Hooks.beforeEachScenario[59] - environmentName: [CloudStage]
+[WARN] 11:28:20 SystemVsConfigProp.getProperty[26] - Value for property [GOOGLEURL] is [https://www.google.com]
+[WARN] 11:28:20 SystemVsConfigProp.getProperty[26] - Value for property [GOOGLEURL] is [https://www.google.com]
+[INFO] 11:28:21 GoogleSearchPage.loadPage[22] - Successfully loaded Google page
+[INFO] 11:28:21 GoogleSearchPage.loadPage[24] - Session ID is: [ed68ed4e74e6841176bb6c9f4b9479e4]
+[INFO] 11:28:21 GoogleSearchPage.loadPage[22] - Successfully loaded Google page
+[INFO] 11:28:21 GoogleSearchPage.loadPage[24] - Session ID is: [e6615864c2e3982b12e7d1d3f5e74a52]
+[INFO] 11:28:21 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 11:28:21 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 11:28:21 SeleniumUtils.clearData[267] - Field [searchBox] has been cleared successfully
+[INFO] 11:28:21 Removed the highlight of the element [searchBox]
+[INFO] 11:28:21 SeleniumUtils.enterData[292] - Entering the text [iPhone 15] in the field [searchBox]
+[INFO] 11:28:21 SeleniumUtils.clearData[267] - Field [searchBox] has been cleared successfully
+[INFO] 11:28:21 Removed the highlight of the element [searchBox]
+[INFO] 11:28:21 SeleniumUtils.enterData[292] - Entering the text [iPhone 15] in the field [searchBox]
+[INFO] 11:28:21 Removed the highlight of the element [searchBox]
+[INFO] 11:28:21 Removed the highlight of the element [searchBox]
+[INFO] 11:28:21 SeleniumUtils.click[152] - Clicked [searchButton] element
+[INFO] 11:28:21 SeleniumUtils.click[152] - Clicked [searchButton] element
+[INFO] 11:28:23 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 11:28:23 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 11:28:24 SeleniumUtils.click[152] - Clicked [shoppingHeader] element
+[INFO] 11:28:24 GoogleSearchPage.searchOnGoogle[33] - Works as expected!
+[INFO] 11:28:25 SeleniumUtils.getTitle[1297] - Page title is: [iPhone 15 - Google Shopping]
+[INFO] 11:28:25 SeleniumUtils.click[152] - Clicked [shoppingHeader] element
+[INFO] 11:28:25 GoogleSearchPage.searchOnGoogle[33] - Works as expected!
+[INFO] 11:28:25 SeleniumUtils.getTitle[1297] - Page title is: [iPhone 15 - Google Shopping]
+[INFO] 11:28:25 Hooks.afterEachScenario[82] - !!!!! Scenario Name: [Nr1] Status -- [Pass] !!!!!
+[INFO] 11:28:25 Hooks.afterEachScenario[82] - !!!!! Scenario Name: [Nr1] Status -- [Pass] !!!!!
+[INFO] 11:28:25 Hooks.afterAll[105] - Report flush.
+[INFO] 11:28:25 Hooks.afterAll[106] - [TagName] is [@Test_4444]]
+[INFO] 11:28:25 Hooks.afterAll[107] - [DeploymentVersion] is [dgw536454ww6fds]
+[INFO] 11:28:25 Hooks.afterAll[108] - [TotalTests] is [2]
+[INFO] 11:28:25 Hooks.afterAll[109] - [PassedTests] is [2]
+[INFO] 11:28:25 Hooks.afterAll[110] - [SkippedTests] is [0]
+[INFO] 11:28:25 Hooks.afterAll[111] - [FailedTests] is [0]
+[INFO] 11:28:25 Hooks.afterAll[118] - [BuildStatus] is [All tests are passing]
+[ERROR] 11:28:26 PlaygroundTest.sendEmail[220] - Failed to send email. Exception: IOException while sending message
+[INFO] 11:28:44 Hooks.beforeEachScenario[42] - ###### Scenario: [Nr1] ######
+[INFO] 11:28:44 Hooks.beforeEachScenario[42] - ###### Scenario: [Nr1] ######
+[WARN] 11:28:44 SystemVsConfigProp.getProperty[26] - Value for property [Browser] is [ChromeOnLocal]
+[WARN] 11:28:44 SystemVsConfigProp.getProperty[26] - Value for property [Browser] is [ChromeOnLocal]
+[WARN] 11:28:44 SystemVsConfigProp.getProperty[26] - Value for property [Environment] is [CloudStage]
+[WARN] 11:28:44 SystemVsConfigProp.getProperty[26] - Value for property [Environment] is [CloudStage]
+[INFO] 11:28:44 Hooks.beforeEachScenario[58] - browserName: [ChromeOnLocal]
+[INFO] 11:28:44 Hooks.beforeEachScenario[58] - browserName: [ChromeOnLocal]
+[INFO] 11:28:44 Hooks.beforeEachScenario[59] - environmentName: [CloudStage]
+[INFO] 11:28:44 Hooks.beforeEachScenario[59] - environmentName: [CloudStage]
+[WARN] 11:28:46 SystemVsConfigProp.getProperty[26] - Value for property [GOOGLEURL] is [https://www.google.com]
+[WARN] 11:28:46 SystemVsConfigProp.getProperty[26] - Value for property [GOOGLEURL] is [https://www.google.com]
+[INFO] 11:28:46 GoogleSearchPage.loadPage[22] - Successfully loaded Google page
+[INFO] 11:28:46 GoogleSearchPage.loadPage[24] - Session ID is: [1d6a773fcce291df55aae4064b4b4992]
+[INFO] 11:28:46 GoogleSearchPage.loadPage[22] - Successfully loaded Google page
+[INFO] 11:28:46 GoogleSearchPage.loadPage[24] - Session ID is: [44f855832a5949d44965932580418a6d]
+[INFO] 11:28:46 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 11:28:46 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 11:28:46 SeleniumUtils.clearData[267] - Field [searchBox] has been cleared successfully
+[INFO] 11:28:46 Removed the highlight of the element [searchBox]
+[INFO] 11:28:46 SeleniumUtils.enterData[292] - Entering the text [iPhone 15] in the field [searchBox]
+[INFO] 11:28:46 SeleniumUtils.clearData[267] - Field [searchBox] has been cleared successfully
+[INFO] 11:28:46 Removed the highlight of the element [searchBox]
+[INFO] 11:28:47 SeleniumUtils.enterData[292] - Entering the text [iPhone 15] in the field [searchBox]
+[INFO] 11:28:47 Removed the highlight of the element [searchBox]
+[INFO] 11:28:47 Removed the highlight of the element [searchBox]
+[INFO] 11:28:47 SeleniumUtils.click[152] - Clicked [searchButton] element
+[INFO] 11:28:47 SeleniumUtils.click[152] - Clicked [searchButton] element
+[INFO] 11:28:48 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 11:28:49 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 11:28:50 SeleniumUtils.click[152] - Clicked [shoppingHeader] element
+[INFO] 11:28:50 GoogleSearchPage.searchOnGoogle[33] - Works as expected!
+[INFO] 11:28:50 SeleniumUtils.getTitle[1297] - Page title is: [iPhone 15 - Google Shopping]
+[INFO] 11:28:50 Hooks.afterEachScenario[82] - !!!!! Scenario Name: [Nr1] Status -- [Pass] !!!!!
+[INFO] 11:28:51 SeleniumUtils.click[152] - Clicked [shoppingHeader] element
+[INFO] 11:28:51 GoogleSearchPage.searchOnGoogle[33] - Works as expected!
+[INFO] 11:28:51 SeleniumUtils.getTitle[1297] - Page title is: [iPhone 15 - Google Shopping]
+[INFO] 11:28:51 Hooks.afterEachScenario[82] - !!!!! Scenario Name: [Nr1] Status -- [Pass] !!!!!
+[INFO] 11:28:51 Hooks.afterAll[105] - Report flush.
+[INFO] 11:28:51 Hooks.afterAll[106] - [TagName] is [@Test_4444]]
+[INFO] 11:28:51 Hooks.afterAll[107] - [DeploymentVersion] is [dgw536454ww6fds]
+[INFO] 11:28:51 Hooks.afterAll[108] - [TotalTests] is [2]
+[INFO] 11:28:51 Hooks.afterAll[109] - [PassedTests] is [2]
+[INFO] 11:28:51 Hooks.afterAll[110] - [SkippedTests] is [0]
+[INFO] 11:28:51 Hooks.afterAll[111] - [FailedTests] is [0]
+[INFO] 11:28:51 Hooks.afterAll[118] - [BuildStatus] is [All tests are passing]
+[ERROR] 11:28:52 PlaygroundTest.sendEmail[220] - Failed to send email. Exception: IOException while sending message
+[INFO] 11:46:25 Hooks.beforeEachScenario[42] - ###### Scenario: [Nr1] ######
+[INFO] 11:46:25 Hooks.beforeEachScenario[42] - ###### Scenario: [Nr1] ######
+[WARN] 11:46:25 SystemVsConfigProp.getProperty[26] - Value for property [Browser] is [ChromeOnLocal]
+[WARN] 11:46:25 SystemVsConfigProp.getProperty[26] - Value for property [Browser] is [ChromeOnLocal]
+[WARN] 11:46:25 SystemVsConfigProp.getProperty[26] - Value for property [Environment] is [CloudStage]
+[WARN] 11:46:25 SystemVsConfigProp.getProperty[26] - Value for property [Environment] is [CloudStage]
+[INFO] 11:46:25 Hooks.beforeEachScenario[58] - browserName: [ChromeOnLocal]
+[INFO] 11:46:25 Hooks.beforeEachScenario[58] - browserName: [ChromeOnLocal]
+[INFO] 11:46:25 Hooks.beforeEachScenario[59] - environmentName: [CloudStage]
+[INFO] 11:46:25 Hooks.beforeEachScenario[59] - environmentName: [CloudStage]
+[WARN] 11:46:28 SystemVsConfigProp.getProperty[26] - Value for property [GOOGLEURL] is [https://www.google.com]
+[WARN] 11:46:28 SystemVsConfigProp.getProperty[26] - Value for property [GOOGLEURL] is [https://www.google.com]
+[INFO] 11:46:28 GoogleSearchPage.loadPage[22] - Successfully loaded Google page
+[INFO] 11:46:28 GoogleSearchPage.loadPage[24] - Session ID is: [35446bc51362dbfbaad784218aaefc47]
+[INFO] 11:46:28 GoogleSearchPage.loadPage[22] - Successfully loaded Google page
+[INFO] 11:46:28 GoogleSearchPage.loadPage[24] - Session ID is: [d6ba010cb4e03e1fe2b8777093d3e1ec]
+[INFO] 11:46:28 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 11:46:28 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 11:46:28 SeleniumUtils.clearData[267] - Field [searchBox] has been cleared successfully
+[INFO] 11:46:28 Removed the highlight of the element [searchBox]
+[INFO] 11:46:28 SeleniumUtils.clearData[267] - Field [searchBox] has been cleared successfully
+[INFO] 11:46:28 SeleniumUtils.enterData[292] - Entering the text [iPhone 15] in the field [searchBox]
+[INFO] 11:46:28 Removed the highlight of the element [searchBox]
+[INFO] 11:46:28 SeleniumUtils.enterData[292] - Entering the text [iPhone 15] in the field [searchBox]
+[INFO] 11:46:29 Removed the highlight of the element [searchBox]
+[INFO] 11:46:29 Removed the highlight of the element [searchBox]
+[INFO] 11:46:29 SeleniumUtils.click[152] - Clicked [searchButton] element
+[INFO] 11:46:29 SeleniumUtils.click[152] - Clicked [searchButton] element
+[INFO] 11:46:30 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 11:46:30 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 11:46:31 SeleniumUtils.click[152] - Clicked [shoppingHeader] element
+[INFO] 11:46:31 GoogleSearchPage.searchOnGoogle[33] - Works as expected!
+[INFO] 11:46:32 SeleniumUtils.getTitle[1297] - Page title is: [iPhone 15 - Google Shopping]
+[INFO] 11:46:32 Hooks.afterEachScenario[82] - !!!!! Scenario Name: [Nr1] Status -- [Pass] !!!!!
+[ERROR] 11:46:40 SeleniumUtils.highlightElement[181] - Cannot highlight the element [shoppingHeader]. Exception: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'Shopping')]"}
+  (Session info: chrome=124.0.6367.209)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d6ba010cb4e03e1fe2b8777093d3e1ec, findElement {using=xpath, value=//div[contains(text(),'Shopping')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.209, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\ALEXAN~1.AND\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56434}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56434/devtoo..., se:cdpVersion: 124.0.6367.209, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d6ba010cb4e03e1fe2b8777093d3e1ec
+[INFO] 11:46:42 Hooks.afterEachScenario[82] - !!!!! Scenario Name: [Nr1] Status -- [Fail] !!!!!
+[INFO] 11:46:42 Hooks.afterAll[105] - Report flush.
+[INFO] 11:46:42 Hooks.afterAll[106] - [TagName] is [@Test_4444]]
+[INFO] 11:46:42 Hooks.afterAll[107] - [DeploymentVersion] is [dgw536454ww6fds]
+[INFO] 11:46:42 Hooks.afterAll[108] - [TotalTests] is [2]
+[INFO] 11:46:42 Hooks.afterAll[109] - [PassedTests] is [1]
+[INFO] 11:46:42 Hooks.afterAll[110] - [SkippedTests] is [0]
+[INFO] 11:46:42 Hooks.afterAll[111] - [FailedTests] is [1]
+[INFO] 11:46:42 Hooks.afterAll[118] - [BuildStatus] is [Still Failing]
+[ERROR] 11:46:43 PlaygroundTest.sendEmail[220] - Failed to send email. Exception: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 3f1490d57ef6-debd372a0cbsm5836077276.15 - gsmtp
+
+[INFO] 11:47:14 Hooks.beforeEachScenario[42] - ###### Scenario: [Nr1] ######
+[INFO] 11:47:14 Hooks.beforeEachScenario[42] - ###### Scenario: [Nr1] ######
+[WARN] 11:47:14 SystemVsConfigProp.getProperty[26] - Value for property [Browser] is [ChromeOnLocal]
+[WARN] 11:47:14 SystemVsConfigProp.getProperty[26] - Value for property [Browser] is [ChromeOnLocal]
+[WARN] 11:47:14 SystemVsConfigProp.getProperty[26] - Value for property [Environment] is [CloudStage]
+[INFO] 11:47:14 Hooks.beforeEachScenario[58] - browserName: [ChromeOnLocal]
+[WARN] 11:47:14 SystemVsConfigProp.getProperty[26] - Value for property [Environment] is [CloudStage]
+[INFO] 11:47:14 Hooks.beforeEachScenario[59] - environmentName: [CloudStage]
+[INFO] 11:47:14 Hooks.beforeEachScenario[58] - browserName: [ChromeOnLocal]
+[INFO] 11:47:14 Hooks.beforeEachScenario[59] - environmentName: [CloudStage]
+[WARN] 11:47:16 SystemVsConfigProp.getProperty[26] - Value for property [GOOGLEURL] is [https://www.google.com]
+[WARN] 11:47:16 SystemVsConfigProp.getProperty[26] - Value for property [GOOGLEURL] is [https://www.google.com]
+[INFO] 11:47:17 GoogleSearchPage.loadPage[22] - Successfully loaded Google page
+[INFO] 11:47:17 GoogleSearchPage.loadPage[24] - Session ID is: [cff7eccf68e15ac9cbba2608d74f4efc]
+[INFO] 11:47:17 GoogleSearchPage.loadPage[22] - Successfully loaded Google page
+[INFO] 11:47:17 GoogleSearchPage.loadPage[24] - Session ID is: [31b5f6596abe6b2bd0ce6b84b460343d]
+[INFO] 11:47:17 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 11:47:17 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 11:47:17 SeleniumUtils.clearData[267] - Field [searchBox] has been cleared successfully
+[INFO] 11:47:17 Removed the highlight of the element [searchBox]
+[INFO] 11:47:17 SeleniumUtils.enterData[292] - Entering the text [iPhone 15] in the field [searchBox]
+[INFO] 11:47:17 SeleniumUtils.clearData[267] - Field [searchBox] has been cleared successfully
+[INFO] 11:47:17 Removed the highlight of the element [searchBox]
+[INFO] 11:47:17 SeleniumUtils.enterData[292] - Entering the text [iPhone 15] in the field [searchBox]
+[INFO] 11:47:17 Removed the highlight of the element [searchBox]
+[INFO] 11:47:17 Removed the highlight of the element [searchBox]
+[INFO] 11:47:17 SeleniumUtils.click[152] - Clicked [searchButton] element
+[INFO] 11:47:19 SeleniumUtils.click[152] - Clicked [searchButton] element
+[INFO] 11:47:19 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 11:47:20 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 11:47:21 SeleniumUtils.click[152] - Clicked [shoppingHeader] element
+[INFO] 11:47:21 GoogleSearchPage.searchOnGoogle[33] - Works as expected!
+[INFO] 11:47:21 SeleniumUtils.getTitle[1297] - Page title is: [iPhone 15 - Google Shopping]
+[INFO] 11:47:21 Hooks.afterEachScenario[82] - !!!!! Scenario Name: [Nr1] Status -- [Pass] !!!!!
+[ERROR] 11:47:30 SeleniumUtils.highlightElement[181] - Cannot highlight the element [shoppingHeader]. Exception: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'Shopping')]"}
+  (Session info: chrome=124.0.6367.209)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [31b5f6596abe6b2bd0ce6b84b460343d, findElement {using=xpath, value=//div[contains(text(),'Shopping')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.209, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\ALEXAN~1.AND\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56556}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56556/devtoo..., se:cdpVersion: 124.0.6367.209, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 31b5f6596abe6b2bd0ce6b84b460343d
+[INFO] 11:47:32 Hooks.afterEachScenario[82] - !!!!! Scenario Name: [Nr1] Status -- [Fail] !!!!!
+[INFO] 11:47:32 Hooks.afterAll[105] - Report flush.
+[INFO] 11:47:32 Hooks.afterAll[106] - [TagName] is [@Test_4444]]
+[INFO] 11:47:32 Hooks.afterAll[107] - [DeploymentVersion] is [dgw536454ww6fds]
+[INFO] 11:47:32 Hooks.afterAll[108] - [TotalTests] is [2]
+[INFO] 11:47:32 Hooks.afterAll[109] - [PassedTests] is [1]
+[INFO] 11:47:32 Hooks.afterAll[110] - [SkippedTests] is [0]
+[INFO] 11:47:32 Hooks.afterAll[111] - [FailedTests] is [1]
+[INFO] 11:47:32 Hooks.afterAll[118] - [BuildStatus] is [Still Failing]
+[ERROR] 11:47:33 PlaygroundTest.sendEmail[220] - Failed to send email. Exception: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 00721157ae682-6209e347209sm58073947b3.84 - gsmtp
+
+[INFO] 11:48:28 Hooks.beforeEachScenario[42] - ###### Scenario: [Nr1] ######
+[INFO] 11:48:28 Hooks.beforeEachScenario[42] - ###### Scenario: [Nr1] ######
+[WARN] 11:48:28 SystemVsConfigProp.getProperty[26] - Value for property [Browser] is [ChromeOnLocal]
+[WARN] 11:48:28 SystemVsConfigProp.getProperty[26] - Value for property [Browser] is [ChromeOnLocal]
+[WARN] 11:48:28 SystemVsConfigProp.getProperty[26] - Value for property [Environment] is [CloudStage]
+[WARN] 11:48:28 SystemVsConfigProp.getProperty[26] - Value for property [Environment] is [CloudStage]
+[INFO] 11:48:28 Hooks.beforeEachScenario[58] - browserName: [ChromeOnLocal]
+[INFO] 11:48:28 Hooks.beforeEachScenario[58] - browserName: [ChromeOnLocal]
+[INFO] 11:48:28 Hooks.beforeEachScenario[59] - environmentName: [CloudStage]
+[INFO] 11:48:28 Hooks.beforeEachScenario[59] - environmentName: [CloudStage]
+[WARN] 11:48:30 SystemVsConfigProp.getProperty[26] - Value for property [GOOGLEURL] is [https://www.google.com]
+[WARN] 11:48:30 SystemVsConfigProp.getProperty[26] - Value for property [GOOGLEURL] is [https://www.google.com]
+[INFO] 11:48:31 GoogleSearchPage.loadPage[22] - Successfully loaded Google page
+[INFO] 11:48:31 GoogleSearchPage.loadPage[24] - Session ID is: [4e9d7065a173282aea3eeb2bfad124a3]
+[INFO] 11:48:31 GoogleSearchPage.loadPage[22] - Successfully loaded Google page
+[INFO] 11:48:31 GoogleSearchPage.loadPage[24] - Session ID is: [c7fe86eeebc282af38da18922545b6af]
+[INFO] 11:48:31 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 11:48:31 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 11:48:31 SeleniumUtils.clearData[267] - Field [searchBox] has been cleared successfully
+[INFO] 11:48:31 SeleniumUtils.clearData[267] - Field [searchBox] has been cleared successfully
+[INFO] 11:48:31 Removed the highlight of the element [searchBox]
+[INFO] 11:48:31 Removed the highlight of the element [searchBox]
+[INFO] 11:48:31 SeleniumUtils.enterData[292] - Entering the text [iPhone 15] in the field [searchBox]
+[INFO] 11:48:31 SeleniumUtils.enterData[292] - Entering the text [iPhone 15] in the field [searchBox]
+[INFO] 11:48:31 Removed the highlight of the element [searchBox]
+[INFO] 11:48:31 Removed the highlight of the element [searchBox]
+[INFO] 11:48:31 SeleniumUtils.click[152] - Clicked [searchButton] element
+[INFO] 11:48:32 SeleniumUtils.click[152] - Clicked [searchButton] element
+[INFO] 11:48:32 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 11:48:32 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 11:48:34 SeleniumUtils.click[152] - Clicked [shoppingHeader] element
+[INFO] 11:48:34 GoogleSearchPage.searchOnGoogle[33] - Works as expected!
+[INFO] 11:48:34 SeleniumUtils.getTitle[1297] - Page title is: [iPhone 15 - Google Shopping]
+[INFO] 11:48:34 SeleniumUtils.click[152] - Clicked [shoppingHeader] element
+[INFO] 11:48:34 GoogleSearchPage.searchOnGoogle[33] - Works as expected!
+[INFO] 11:48:35 Hooks.afterEachScenario[82] - !!!!! Scenario Name: [Nr1] Status -- [Pass] !!!!!
+[INFO] 11:48:35 SeleniumUtils.getTitle[1297] - Page title is: [iPhone 15 - Google Shopping]
+[INFO] 11:48:35 Hooks.afterEachScenario[82] - !!!!! Scenario Name: [Nr1] Status -- [Pass] !!!!!
+[INFO] 11:48:35 Hooks.afterAll[105] - Report flush.
+[INFO] 11:48:35 Hooks.afterAll[106] - [TagName] is [@Test_4444]]
+[INFO] 11:48:35 Hooks.afterAll[107] - [DeploymentVersion] is [dgw536454ww6fds]
+[INFO] 11:48:35 Hooks.afterAll[108] - [TotalTests] is [2]
+[INFO] 11:48:35 Hooks.afterAll[109] - [PassedTests] is [2]
+[INFO] 11:48:35 Hooks.afterAll[110] - [SkippedTests] is [0]
+[INFO] 11:48:35 Hooks.afterAll[111] - [FailedTests] is [0]
+[INFO] 11:48:35 Hooks.afterAll[118] - [BuildStatus] is [All tests are passing]
+[ERROR] 11:48:36 PlaygroundTest.sendEmail[220] - Failed to send email. Exception: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 00721157ae682-627dcbfff46sm5521137b3.88 - gsmtp
+
+[INFO] 11:56:50 Hooks.beforeEachScenario[42] - ###### Scenario: [Nr1] ######
+[INFO] 11:56:50 Hooks.beforeEachScenario[42] - ###### Scenario: [Nr1] ######
+[WARN] 11:56:50 SystemVsConfigProp.getProperty[26] - Value for property [Browser] is [ChromeOnLocal]
+[WARN] 11:56:50 SystemVsConfigProp.getProperty[26] - Value for property [Browser] is [ChromeOnLocal]
+[WARN] 11:56:50 SystemVsConfigProp.getProperty[26] - Value for property [Environment] is [CloudStage]
+[WARN] 11:56:50 SystemVsConfigProp.getProperty[26] - Value for property [Environment] is [CloudStage]
+[INFO] 11:56:50 Hooks.beforeEachScenario[58] - browserName: [ChromeOnLocal]
+[INFO] 11:56:50 Hooks.beforeEachScenario[59] - environmentName: [CloudStage]
+[INFO] 11:56:50 Hooks.beforeEachScenario[58] - browserName: [ChromeOnLocal]
+[INFO] 11:56:50 Hooks.beforeEachScenario[59] - environmentName: [CloudStage]
+[WARN] 11:56:52 SystemVsConfigProp.getProperty[26] - Value for property [GOOGLEURL] is [https://www.google.com]
+[WARN] 11:56:52 SystemVsConfigProp.getProperty[26] - Value for property [GOOGLEURL] is [https://www.google.com]
+[INFO] 11:56:53 GoogleSearchPage.loadPage[22] - Successfully loaded Google page
+[INFO] 11:56:53 GoogleSearchPage.loadPage[24] - Session ID is: [a98855636427d2a55f278037581bc9a0]
+[INFO] 11:56:53 GoogleSearchPage.loadPage[22] - Successfully loaded Google page
+[INFO] 11:56:53 GoogleSearchPage.loadPage[24] - Session ID is: [7db5ae522a931142cba93d346a3d46bc]
+[INFO] 11:56:53 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 11:56:53 SeleniumUtils.clearData[267] - Field [searchBox] has been cleared successfully
+[INFO] 11:56:53 Removed the highlight of the element [searchBox]
+[INFO] 11:56:53 SeleniumUtils.enterData[292] - Entering the text [iPhone 15] in the field [searchBox]
+[INFO] 11:56:53 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 11:56:53 SeleniumUtils.clearData[267] - Field [searchBox] has been cleared successfully
+[INFO] 11:56:53 Removed the highlight of the element [searchBox]
+[INFO] 11:56:53 Removed the highlight of the element [searchBox]
+[INFO] 11:56:53 SeleniumUtils.enterData[292] - Entering the text [iPhone 15] in the field [searchBox]
+[INFO] 11:56:53 Removed the highlight of the element [searchBox]
+[INFO] 11:56:53 SeleniumUtils.click[152] - Clicked [searchButton] element
+[INFO] 11:56:53 SeleniumUtils.click[152] - Clicked [searchButton] element
+[INFO] 11:56:54 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 11:56:54 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 11:56:56 SeleniumUtils.click[152] - Clicked [shoppingHeader] element
+[INFO] 11:56:56 GoogleSearchPage.searchOnGoogle[33] - Works as expected!
+[INFO] 11:56:56 SeleniumUtils.click[152] - Clicked [shoppingHeader] element
+[INFO] 11:56:56 GoogleSearchPage.searchOnGoogle[33] - Works as expected!
+[INFO] 11:56:57 SeleniumUtils.getTitle[1297] - Page title is: [iPhone 15 - Google Shopping]
+[INFO] 11:56:57 SeleniumUtils.getTitle[1297] - Page title is: [iPhone 15 - Google Shopping]
+[INFO] 11:56:57 Hooks.afterEachScenario[82] - !!!!! Scenario Name: [Nr1] Status -- [Pass] !!!!!
+[INFO] 11:56:57 Hooks.afterEachScenario[82] - !!!!! Scenario Name: [Nr1] Status -- [Pass] !!!!!
+[INFO] 11:56:57 Hooks.afterAll[105] - Report flush.
+[INFO] 11:56:57 Hooks.afterAll[106] - [TagName] is [@Test_4444]]
+[INFO] 11:56:57 Hooks.afterAll[107] - [DeploymentVersion] is [dgw536454ww6fds]
+[INFO] 11:56:57 Hooks.afterAll[108] - [TotalTests] is [2]
+[INFO] 11:56:57 Hooks.afterAll[109] - [PassedTests] is [2]
+[INFO] 11:56:57 Hooks.afterAll[110] - [SkippedTests] is [0]
+[INFO] 11:56:57 Hooks.afterAll[111] - [FailedTests] is [0]
+[INFO] 11:56:57 Hooks.afterAll[118] - [BuildStatus] is [All tests are passing]
+[ERROR] 11:56:58 PlaygroundTest.sendEmail[220] - Failed to send email. Exception: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 00721157ae682-6209e379631sm58999437b3.124 - gsmtp
+
+[INFO] 11:58:36 Hooks.beforeEachScenario[42] - ###### Scenario: [Nr1] ######
+[INFO] 11:58:36 Hooks.beforeEachScenario[42] - ###### Scenario: [Nr1] ######
+[WARN] 11:58:36 SystemVsConfigProp.getProperty[26] - Value for property [Browser] is [ChromeOnLocal]
+[WARN] 11:58:36 SystemVsConfigProp.getProperty[26] - Value for property [Browser] is [ChromeOnLocal]
+[WARN] 11:58:36 SystemVsConfigProp.getProperty[26] - Value for property [Environment] is [CloudStage]
+[WARN] 11:58:36 SystemVsConfigProp.getProperty[26] - Value for property [Environment] is [CloudStage]
+[INFO] 11:58:36 Hooks.beforeEachScenario[58] - browserName: [ChromeOnLocal]
+[INFO] 11:58:36 Hooks.beforeEachScenario[58] - browserName: [ChromeOnLocal]
+[INFO] 11:58:36 Hooks.beforeEachScenario[59] - environmentName: [CloudStage]
+[INFO] 11:58:36 Hooks.beforeEachScenario[59] - environmentName: [CloudStage]
+[WARN] 11:58:38 SystemVsConfigProp.getProperty[26] - Value for property [GOOGLEURL] is [https://www.google.com]
+[WARN] 11:58:38 SystemVsConfigProp.getProperty[26] - Value for property [GOOGLEURL] is [https://www.google.com]
+[INFO] 11:58:38 GoogleSearchPage.loadPage[22] - Successfully loaded Google page
+[INFO] 11:58:38 GoogleSearchPage.loadPage[24] - Session ID is: [7d0f1b9960375f51a0285588125c03b2]
+[INFO] 11:58:39 GoogleSearchPage.loadPage[22] - Successfully loaded Google page
+[INFO] 11:58:39 GoogleSearchPage.loadPage[24] - Session ID is: [9ba09e9ca96867c843fe19624ed9326e]
+[INFO] 11:58:39 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 11:58:39 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 11:58:39 SeleniumUtils.clearData[267] - Field [searchBox] has been cleared successfully
+[INFO] 11:58:39 Removed the highlight of the element [searchBox]
+[INFO] 11:58:39 SeleniumUtils.enterData[292] - Entering the text [iPhone 15] in the field [searchBox]
+[INFO] 11:58:39 SeleniumUtils.clearData[267] - Field [searchBox] has been cleared successfully
+[INFO] 11:58:39 Removed the highlight of the element [searchBox]
+[INFO] 11:58:39 SeleniumUtils.enterData[292] - Entering the text [iPhone 15] in the field [searchBox]
+[INFO] 11:58:39 Removed the highlight of the element [searchBox]
+[INFO] 11:58:39 Removed the highlight of the element [searchBox]
+[INFO] 11:58:39 SeleniumUtils.click[152] - Clicked [searchButton] element
+[INFO] 11:58:39 SeleniumUtils.click[152] - Clicked [searchButton] element
+[INFO] 11:58:40 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 11:58:40 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 11:58:42 SeleniumUtils.click[152] - Clicked [shoppingHeader] element
+[INFO] 11:58:42 GoogleSearchPage.searchOnGoogle[33] - Works as expected!
+[INFO] 11:58:42 SeleniumUtils.getTitle[1297] - Page title is: [iPhone 15 - Google Shopping]
+[INFO] 11:58:42 Hooks.afterEachScenario[82] - !!!!! Scenario Name: [Nr1] Status -- [Pass] !!!!!
+[ERROR] 11:58:50 SeleniumUtils.highlightElement[181] - Cannot highlight the element [shoppingHeader]. Exception: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'Shopping')]"}
+  (Session info: chrome=124.0.6367.209)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9ba09e9ca96867c843fe19624ed9326e, findElement {using=xpath, value=//div[contains(text(),'Shopping')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.209, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\ALEXAN~1.AND\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57639}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57639/devtoo..., se:cdpVersion: 124.0.6367.209, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9ba09e9ca96867c843fe19624ed9326e
+[INFO] 11:58:53 Hooks.afterEachScenario[82] - !!!!! Scenario Name: [Nr1] Status -- [Fail] !!!!!
+[INFO] 11:58:53 Hooks.afterAll[105] - Report flush.
+[INFO] 11:58:53 Hooks.afterAll[106] - [TagName] is [@Test_4444]]
+[INFO] 11:58:53 Hooks.afterAll[107] - [DeploymentVersion] is [dgw536454ww6fds]
+[INFO] 11:58:53 Hooks.afterAll[108] - [TotalTests] is [2]
+[INFO] 11:58:53 Hooks.afterAll[109] - [PassedTests] is [1]
+[INFO] 11:58:53 Hooks.afterAll[110] - [SkippedTests] is [0]
+[INFO] 11:58:53 Hooks.afterAll[111] - [FailedTests] is [1]
+[INFO] 11:58:53 Hooks.afterAll[118] - [BuildStatus] is [Still Failing]
+[ERROR] 11:58:53 PlaygroundTest.sendEmail[220] - Failed to send email. Exception: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 3f1490d57ef6-debd3b90a1dsm6027658276.24 - gsmtp
+
+[INFO] 11:59:24 Hooks.beforeEachScenario[42] - ###### Scenario: [Nr1] ######
+[INFO] 11:59:24 Hooks.beforeEachScenario[42] - ###### Scenario: [Nr1] ######
+[WARN] 11:59:24 SystemVsConfigProp.getProperty[26] - Value for property [Browser] is [ChromeOnLocal]
+[WARN] 11:59:24 SystemVsConfigProp.getProperty[26] - Value for property [Browser] is [ChromeOnLocal]
+[WARN] 11:59:24 SystemVsConfigProp.getProperty[26] - Value for property [Environment] is [CloudStage]
+[WARN] 11:59:24 SystemVsConfigProp.getProperty[26] - Value for property [Environment] is [CloudStage]
+[INFO] 11:59:24 Hooks.beforeEachScenario[58] - browserName: [ChromeOnLocal]
+[INFO] 11:59:24 Hooks.beforeEachScenario[58] - browserName: [ChromeOnLocal]
+[INFO] 11:59:24 Hooks.beforeEachScenario[59] - environmentName: [CloudStage]
+[INFO] 11:59:24 Hooks.beforeEachScenario[59] - environmentName: [CloudStage]
+[WARN] 11:59:26 SystemVsConfigProp.getProperty[26] - Value for property [GOOGLEURL] is [https://www.google.com]
+[WARN] 11:59:26 SystemVsConfigProp.getProperty[26] - Value for property [GOOGLEURL] is [https://www.google.com]
+[INFO] 11:59:27 GoogleSearchPage.loadPage[22] - Successfully loaded Google page
+[INFO] 11:59:27 GoogleSearchPage.loadPage[24] - Session ID is: [fc49d8ee3aa59f3a1484edc7f27bfeb0]
+[INFO] 11:59:27 GoogleSearchPage.loadPage[22] - Successfully loaded Google page
+[INFO] 11:59:27 GoogleSearchPage.loadPage[24] - Session ID is: [4b15278eebf75cf5cc88068385a4ec67]
+[INFO] 11:59:27 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 11:59:27 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 11:59:27 SeleniumUtils.clearData[267] - Field [searchBox] has been cleared successfully
+[INFO] 11:59:27 Removed the highlight of the element [searchBox]
+[INFO] 11:59:27 SeleniumUtils.clearData[267] - Field [searchBox] has been cleared successfully
+[INFO] 11:59:27 SeleniumUtils.enterData[292] - Entering the text [iPhone 15] in the field [searchBox]
+[INFO] 11:59:27 Removed the highlight of the element [searchBox]
+[INFO] 11:59:27 SeleniumUtils.enterData[292] - Entering the text [iPhone 15] in the field [searchBox]
+[INFO] 11:59:27 Removed the highlight of the element [searchBox]
+[INFO] 11:59:27 Removed the highlight of the element [searchBox]
+[INFO] 11:59:27 SeleniumUtils.click[152] - Clicked [searchButton] element
+[INFO] 11:59:27 SeleniumUtils.click[152] - Clicked [searchButton] element
+[INFO] 11:59:29 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 11:59:29 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 11:59:30 SeleniumUtils.click[152] - Clicked [shoppingHeader] element
+[INFO] 11:59:30 GoogleSearchPage.searchOnGoogle[33] - Works as expected!
+[INFO] 11:59:30 SeleniumUtils.getTitle[1297] - Page title is: [iPhone 15 - Google Shopping]
+[INFO] 11:59:30 Hooks.afterEachScenario[82] - !!!!! Scenario Name: [Nr1] Status -- [Pass] !!!!!
+[INFO] 11:59:31 SeleniumUtils.click[152] - Clicked [shoppingHeader] element
+[INFO] 11:59:31 GoogleSearchPage.searchOnGoogle[33] - Works as expected!
+[INFO] 11:59:31 SeleniumUtils.getTitle[1297] - Page title is: [iPhone 15 - Google Shopping]
+[INFO] 11:59:32 Hooks.afterEachScenario[82] - !!!!! Scenario Name: [Nr1] Status -- [Pass] !!!!!
+[INFO] 11:59:32 Hooks.afterAll[105] - Report flush.
+[INFO] 11:59:32 Hooks.afterAll[106] - [TagName] is [@Test_4444]]
+[INFO] 11:59:32 Hooks.afterAll[107] - [DeploymentVersion] is [dgw536454ww6fds]
+[INFO] 11:59:32 Hooks.afterAll[108] - [TotalTests] is [2]
+[INFO] 11:59:32 Hooks.afterAll[109] - [PassedTests] is [2]
+[INFO] 11:59:32 Hooks.afterAll[110] - [SkippedTests] is [0]
+[INFO] 11:59:32 Hooks.afterAll[111] - [FailedTests] is [0]
+[INFO] 11:59:32 Hooks.afterAll[118] - [BuildStatus] is [All tests are passing]
+[ERROR] 11:59:32 PlaygroundTest.sendEmail[220] - Failed to send email. Exception: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 00721157ae682-622c4f25d78sm50389577b3.13 - gsmtp
+
+[ERROR] 12:02:02 PlaygroundTest.sendEmail[220] - Failed to send email. Exception: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 00721157ae682-6209e25927dsm58479077b3.37 - gsmtp
+
+[INFO] 12:03:05 Hooks.beforeEachScenario[42] - ###### Scenario: [Nr1] ######
+[INFO] 12:03:05 Hooks.beforeEachScenario[42] - ###### Scenario: [Nr1] ######
+[WARN] 12:03:05 SystemVsConfigProp.getProperty[26] - Value for property [Browser] is [ChromeOnLocal]
+[WARN] 12:03:05 SystemVsConfigProp.getProperty[26] - Value for property [Browser] is [ChromeOnLocal]
+[WARN] 12:03:05 SystemVsConfigProp.getProperty[26] - Value for property [Environment] is [CloudStage]
+[WARN] 12:03:05 SystemVsConfigProp.getProperty[26] - Value for property [Environment] is [CloudStage]
+[INFO] 12:03:05 Hooks.beforeEachScenario[58] - browserName: [ChromeOnLocal]
+[INFO] 12:03:05 Hooks.beforeEachScenario[58] - browserName: [ChromeOnLocal]
+[INFO] 12:03:05 Hooks.beforeEachScenario[59] - environmentName: [CloudStage]
+[INFO] 12:03:05 Hooks.beforeEachScenario[59] - environmentName: [CloudStage]
+[WARN] 12:03:07 SystemVsConfigProp.getProperty[26] - Value for property [GOOGLEURL] is [https://www.google.com]
+[WARN] 12:03:07 SystemVsConfigProp.getProperty[26] - Value for property [GOOGLEURL] is [https://www.google.com]
+[INFO] 12:03:07 GoogleSearchPage.loadPage[22] - Successfully loaded Google page
+[INFO] 12:03:07 GoogleSearchPage.loadPage[24] - Session ID is: [bdbf4e15adce03dedd08f5cdbb1b7d52]
+[INFO] 12:03:08 GoogleSearchPage.loadPage[22] - Successfully loaded Google page
+[INFO] 12:03:08 GoogleSearchPage.loadPage[24] - Session ID is: [2ad5ed586dd7b6dbb968589cc101996e]
+[INFO] 12:03:08 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 12:03:08 SeleniumUtils.clearData[267] - Field [searchBox] has been cleared successfully
+[INFO] 12:03:08 Removed the highlight of the element [searchBox]
+[INFO] 12:03:08 SeleniumUtils.enterData[292] - Entering the text [iPhone 15] in the field [searchBox]
+[INFO] 12:03:08 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 12:03:08 Removed the highlight of the element [searchBox]
+[INFO] 12:03:08 SeleniumUtils.clearData[267] - Field [searchBox] has been cleared successfully
+[INFO] 12:03:08 Removed the highlight of the element [searchBox]
+[INFO] 12:03:08 SeleniumUtils.enterData[292] - Entering the text [iPhone 15] in the field [searchBox]
+[INFO] 12:03:08 Removed the highlight of the element [searchBox]
+[INFO] 12:03:08 SeleniumUtils.click[152] - Clicked [searchButton] element
+[INFO] 12:03:08 SeleniumUtils.click[152] - Clicked [searchButton] element
+[INFO] 12:03:09 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 12:03:09 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 12:03:11 SeleniumUtils.click[152] - Clicked [shoppingHeader] element
+[INFO] 12:03:11 GoogleSearchPage.searchOnGoogle[33] - Works as expected!
+[INFO] 12:03:11 SeleniumUtils.getTitle[1297] - Page title is: [iPhone 15 - Google Shopping]
+[INFO] 12:03:11 Hooks.afterEachScenario[82] - !!!!! Scenario Name: [Nr1] Status -- [Pass] !!!!!
+[ERROR] 12:03:19 SeleniumUtils.highlightElement[181] - Cannot highlight the element [shoppingHeader]. Exception: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'Shopping')]"}
+  (Session info: chrome=124.0.6367.209)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bdbf4e15adce03dedd08f5cdbb1b7d52, findElement {using=xpath, value=//div[contains(text(),'Shopping')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.209, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\ALEXAN~1.AND\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58137}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58137/devtoo..., se:cdpVersion: 124.0.6367.209, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bdbf4e15adce03dedd08f5cdbb1b7d52
+[INFO] 12:03:22 Hooks.afterEachScenario[82] - !!!!! Scenario Name: [Nr1] Status -- [Fail] !!!!!
+[INFO] 12:03:22 Hooks.afterAll[105] - Report flush.
+[INFO] 12:03:22 Hooks.afterAll[106] - [TagName] is [@Test_4444]]
+[INFO] 12:03:22 Hooks.afterAll[107] - [DeploymentVersion] is [dgw536454ww6fds]
+[INFO] 12:03:22 Hooks.afterAll[108] - [TotalTests] is [2]
+[INFO] 12:03:22 Hooks.afterAll[109] - [PassedTests] is [1]
+[INFO] 12:03:22 Hooks.afterAll[110] - [SkippedTests] is [0]
+[INFO] 12:03:22 Hooks.afterAll[111] - [FailedTests] is [1]
+[INFO] 12:03:22 Hooks.afterAll[118] - [BuildStatus] is [Still Failing]
+[ERROR] 12:03:22 PlaygroundTest.sendEmail[220] - Failed to send email. Exception: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 00721157ae682-627e1f36c82sm4451207b3.19 - gsmtp
+
+[ERROR] 12:03:35 PlaygroundTest.sendEmail[220] - Failed to send email. Exception: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 00721157ae682-6209e5b0b4asm59584377b3.137 - gsmtp
+
+[ERROR] 12:03:56 PlaygroundTest.sendEmail[220] - Failed to send email. Exception: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 00721157ae682-6209e379427sm59114427b3.122 - gsmtp
+
+[INFO] 12:04:14 Hooks.beforeEachScenario[42] - ###### Scenario: [Nr1] ######
+[INFO] 12:04:14 Hooks.beforeEachScenario[42] - ###### Scenario: [Nr1] ######
+[WARN] 12:04:14 SystemVsConfigProp.getProperty[26] - Value for property [Browser] is [ChromeOnLocal]
+[WARN] 12:04:14 SystemVsConfigProp.getProperty[26] - Value for property [Browser] is [ChromeOnLocal]
+[WARN] 12:04:14 SystemVsConfigProp.getProperty[26] - Value for property [Environment] is [CloudStage]
+[WARN] 12:04:14 SystemVsConfigProp.getProperty[26] - Value for property [Environment] is [CloudStage]
+[INFO] 12:04:14 Hooks.beforeEachScenario[58] - browserName: [ChromeOnLocal]
+[INFO] 12:04:14 Hooks.beforeEachScenario[58] - browserName: [ChromeOnLocal]
+[INFO] 12:04:14 Hooks.beforeEachScenario[59] - environmentName: [CloudStage]
+[INFO] 12:04:14 Hooks.beforeEachScenario[59] - environmentName: [CloudStage]
+[WARN] 12:04:16 SystemVsConfigProp.getProperty[26] - Value for property [GOOGLEURL] is [https://www.google.com]
+[WARN] 12:04:16 SystemVsConfigProp.getProperty[26] - Value for property [GOOGLEURL] is [https://www.google.com]
+[INFO] 12:04:16 GoogleSearchPage.loadPage[22] - Successfully loaded Google page
+[INFO] 12:04:16 GoogleSearchPage.loadPage[24] - Session ID is: [df4142345981d102d7967f877943a6d0]
+[INFO] 12:04:16 GoogleSearchPage.loadPage[22] - Successfully loaded Google page
+[INFO] 12:04:16 GoogleSearchPage.loadPage[24] - Session ID is: [5904b8e0e2a2500a3a6a4c95a9904f47]
+[INFO] 12:04:17 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 12:04:17 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 12:04:17 SeleniumUtils.clearData[267] - Field [searchBox] has been cleared successfully
+[INFO] 12:04:17 SeleniumUtils.clearData[267] - Field [searchBox] has been cleared successfully
+[INFO] 12:04:17 Removed the highlight of the element [searchBox]
+[INFO] 12:04:17 Removed the highlight of the element [searchBox]
+[INFO] 12:04:17 SeleniumUtils.enterData[292] - Entering the text [iPhone 15] in the field [searchBox]
+[INFO] 12:04:17 SeleniumUtils.enterData[292] - Entering the text [iPhone 15] in the field [searchBox]
+[INFO] 12:04:17 Removed the highlight of the element [searchBox]
+[INFO] 12:04:17 Removed the highlight of the element [searchBox]
+[INFO] 12:04:17 SeleniumUtils.click[152] - Clicked [searchButton] element
+[INFO] 12:04:17 SeleniumUtils.click[152] - Clicked [searchButton] element
+[INFO] 12:04:18 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 12:04:19 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 12:04:20 SeleniumUtils.click[152] - Clicked [shoppingHeader] element
+[INFO] 12:04:20 SeleniumUtils.click[152] - Clicked [shoppingHeader] element
+[INFO] 12:04:20 GoogleSearchPage.searchOnGoogle[33] - Works as expected!
+[INFO] 12:04:20 SeleniumUtils.getTitle[1297] - Page title is: [iPhone 15 - Google Search]
+[INFO] 12:04:21 GoogleSearchPage.searchOnGoogle[33] - Works as expected!
+[INFO] 12:04:21 SeleniumUtils.getTitle[1297] - Page title is: [iPhone 15 - Google Shopping]
+[INFO] 12:04:21 Hooks.afterEachScenario[82] - !!!!! Scenario Name: [Nr1] Status -- [Pass] !!!!!
+[INFO] 12:04:22 Hooks.afterEachScenario[82] - !!!!! Scenario Name: [Nr1] Status -- [Fail] !!!!!
+[INFO] 12:04:22 Hooks.afterAll[105] - Report flush.
+[INFO] 12:04:22 Hooks.afterAll[106] - [TagName] is [@Test_4444]]
+[INFO] 12:04:22 Hooks.afterAll[107] - [DeploymentVersion] is [dgw536454ww6fds]
+[INFO] 12:04:22 Hooks.afterAll[108] - [TotalTests] is [2]
+[INFO] 12:04:22 Hooks.afterAll[109] - [PassedTests] is [1]
+[INFO] 12:04:22 Hooks.afterAll[110] - [SkippedTests] is [0]
+[INFO] 12:04:22 Hooks.afterAll[111] - [FailedTests] is [1]
+[INFO] 12:04:22 Hooks.afterAll[118] - [BuildStatus] is [Still Failing]
+[ERROR] 12:04:23 PlaygroundTest.sendEmail[220] - Failed to send email. Exception: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 00721157ae682-6277cdfa8ddsm25815857b3.52 - gsmtp
+
+[INFO] 12:04:47 Hooks.beforeEachScenario[42] - ###### Scenario: [Nr1] ######
+[INFO] 12:04:47 Hooks.beforeEachScenario[42] - ###### Scenario: [Nr1] ######
+[WARN] 12:04:47 SystemVsConfigProp.getProperty[26] - Value for property [Browser] is [ChromeOnLocal]
+[WARN] 12:04:47 SystemVsConfigProp.getProperty[26] - Value for property [Browser] is [ChromeOnLocal]
+[WARN] 12:04:47 SystemVsConfigProp.getProperty[26] - Value for property [Environment] is [CloudStage]
+[WARN] 12:04:47 SystemVsConfigProp.getProperty[26] - Value for property [Environment] is [CloudStage]
+[INFO] 12:04:47 Hooks.beforeEachScenario[58] - browserName: [ChromeOnLocal]
+[INFO] 12:04:47 Hooks.beforeEachScenario[58] - browserName: [ChromeOnLocal]
+[INFO] 12:04:47 Hooks.beforeEachScenario[59] - environmentName: [CloudStage]
+[INFO] 12:04:47 Hooks.beforeEachScenario[59] - environmentName: [CloudStage]
+[WARN] 12:04:49 SystemVsConfigProp.getProperty[26] - Value for property [GOOGLEURL] is [https://www.google.com]
+[WARN] 12:04:49 SystemVsConfigProp.getProperty[26] - Value for property [GOOGLEURL] is [https://www.google.com]
+[INFO] 12:04:50 GoogleSearchPage.loadPage[22] - Successfully loaded Google page
+[INFO] 12:04:50 GoogleSearchPage.loadPage[24] - Session ID is: [69ed46bed5ce3214f1edc26c245a7419]
+[INFO] 12:04:50 GoogleSearchPage.loadPage[22] - Successfully loaded Google page
+[INFO] 12:04:50 GoogleSearchPage.loadPage[24] - Session ID is: [271535115fd15a769dcd2b662f925807]
+[INFO] 12:04:50 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 12:04:50 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 12:04:50 SeleniumUtils.clearData[267] - Field [searchBox] has been cleared successfully
+[INFO] 12:04:50 Removed the highlight of the element [searchBox]
+[INFO] 12:04:50 SeleniumUtils.clearData[267] - Field [searchBox] has been cleared successfully
+[INFO] 12:04:50 SeleniumUtils.enterData[292] - Entering the text [iPhone 15] in the field [searchBox]
+[INFO] 12:04:50 Removed the highlight of the element [searchBox]
+[INFO] 12:04:50 SeleniumUtils.enterData[292] - Entering the text [iPhone 15] in the field [searchBox]
+[INFO] 12:04:50 Removed the highlight of the element [searchBox]
+[INFO] 12:04:50 Removed the highlight of the element [searchBox]
+[INFO] 12:04:50 SeleniumUtils.click[152] - Clicked [searchButton] element
+[INFO] 12:04:50 SeleniumUtils.click[152] - Clicked [searchButton] element
+[INFO] 12:04:51 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 12:04:51 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 12:04:53 SeleniumUtils.click[152] - Clicked [shoppingHeader] element
+[INFO] 12:04:53 GoogleSearchPage.searchOnGoogle[33] - Works as expected!
+[INFO] 12:04:53 SeleniumUtils.getTitle[1297] - Page title is: [iPhone 15 - Google Shopping]
+[INFO] 12:04:54 Hooks.afterEachScenario[82] - !!!!! Scenario Name: [Nr1] Status -- [Pass] !!!!!
+[ERROR] 12:05:01 SeleniumUtils.highlightElement[181] - Cannot highlight the element [shoppingHeader]. Exception: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'Shopping')]"}
+  (Session info: chrome=124.0.6367.209)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [69ed46bed5ce3214f1edc26c245a7419, findElement {using=xpath, value=//div[contains(text(),'Shopping')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.209, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\ALEXAN~1.AND\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58482}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58482/devtoo..., se:cdpVersion: 124.0.6367.209, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 69ed46bed5ce3214f1edc26c245a7419
+[INFO] 12:05:04 Hooks.afterEachScenario[82] - !!!!! Scenario Name: [Nr1] Status -- [Fail] !!!!!
+[INFO] 12:05:04 Hooks.afterAll[105] - Report flush.
+[INFO] 12:05:04 Hooks.afterAll[106] - [TagName] is [@Test_4444]]
+[INFO] 12:05:04 Hooks.afterAll[107] - [DeploymentVersion] is [dgw536454ww6fds]
+[INFO] 12:05:04 Hooks.afterAll[108] - [TotalTests] is [1]
+[INFO] 12:05:04 Hooks.afterAll[109] - [PassedTests] is [1]
+[INFO] 12:05:04 Hooks.afterAll[110] - [SkippedTests] is [0]
+[INFO] 12:05:04 Hooks.afterAll[111] - [FailedTests] is [1]
+[INFO] 12:05:04 Hooks.afterAll[118] - [BuildStatus] is [Still Failing]
+[ERROR] 12:05:04 PlaygroundTest.sendEmail[220] - Failed to send email. Exception: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 3f1490d57ef6-debd385b9e6sm6000946276.63 - gsmtp
+
+[ERROR] 12:06:28 PlaygroundTest.sendEmail[220] - Failed to send email. Exception: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 00721157ae682-6209e37936asm59488377b3.119 - gsmtp
+
+[ERROR] 12:29:37 PlaygroundTest.sendEmail[220] - Failed to send email. Exception: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 3f1490d57ef6-df4a278d05bsm1430518276.14 - gsmtp
+
+[INFO] 12:29:51 Hooks.beforeEachScenario[42] - ###### Scenario: [Nr1] ######
+[INFO] 12:29:51 Hooks.beforeEachScenario[42] - ###### Scenario: [Nr1] ######
+[WARN] 12:29:51 SystemVsConfigProp.getProperty[26] - Value for property [Browser] is [ChromeOnLocal]
+[WARN] 12:29:51 SystemVsConfigProp.getProperty[26] - Value for property [Browser] is [ChromeOnLocal]
+[WARN] 12:29:51 SystemVsConfigProp.getProperty[26] - Value for property [Environment] is [CloudStage]
+[WARN] 12:29:51 SystemVsConfigProp.getProperty[26] - Value for property [Environment] is [CloudStage]
+[INFO] 12:29:51 Hooks.beforeEachScenario[58] - browserName: [ChromeOnLocal]
+[INFO] 12:29:51 Hooks.beforeEachScenario[58] - browserName: [ChromeOnLocal]
+[INFO] 12:29:51 Hooks.beforeEachScenario[59] - environmentName: [CloudStage]
+[INFO] 12:29:51 Hooks.beforeEachScenario[59] - environmentName: [CloudStage]
+[WARN] 12:29:52 SystemVsConfigProp.getProperty[26] - Value for property [GOOGLEURL] is [https://www.google.com]
+[WARN] 12:29:52 SystemVsConfigProp.getProperty[26] - Value for property [GOOGLEURL] is [https://www.google.com]
+[INFO] 12:29:53 GoogleSearchPage.loadPage[22] - Successfully loaded Google page
+[INFO] 12:29:53 GoogleSearchPage.loadPage[24] - Session ID is: [61a1bb324fab2f536c256387404fa543]
+[INFO] 12:29:53 GoogleSearchPage.loadPage[22] - Successfully loaded Google page
+[INFO] 12:29:53 GoogleSearchPage.loadPage[24] - Session ID is: [b667b3918c111054c7f78e12b1b3a0f0]
+[INFO] 12:29:53 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 12:29:53 SeleniumUtils.clearData[267] - Field [searchBox] has been cleared successfully
+[INFO] 12:29:53 Removed the highlight of the element [searchBox]
+[INFO] 12:29:53 SeleniumUtils.enterData[292] - Entering the text [iPhone 15] in the field [searchBox]
+[INFO] 12:29:53 Removed the highlight of the element [searchBox]
+[INFO] 12:29:53 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 12:29:53 SeleniumUtils.clearData[267] - Field [searchBox] has been cleared successfully
+[INFO] 12:29:53 Removed the highlight of the element [searchBox]
+[INFO] 12:29:53 SeleniumUtils.enterData[292] - Entering the text [iPhone 15] in the field [searchBox]
+[INFO] 12:29:53 Removed the highlight of the element [searchBox]
+[INFO] 12:29:54 SeleniumUtils.click[152] - Clicked [searchButton] element
+[INFO] 12:29:54 SeleniumUtils.click[152] - Clicked [searchButton] element
+[INFO] 12:29:55 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 12:29:55 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 12:29:57 SeleniumUtils.click[152] - Clicked [shoppingHeader] element
+[INFO] 12:29:57 GoogleSearchPage.searchOnGoogle[33] - Works as expected!
+[INFO] 12:29:57 SeleniumUtils.getTitle[1297] - Page title is: [iPhone 15 - Google Shopping]
+[INFO] 12:29:57 SeleniumUtils.click[152] - Clicked [shoppingHeader] element
+[INFO] 12:29:57 GoogleSearchPage.searchOnGoogle[33] - Works as expected!
+[INFO] 12:29:57 Hooks.afterEachScenario[82] - !!!!! Scenario Name: [Nr1] Status -- [Pass] !!!!!
+[INFO] 12:29:57 SeleniumUtils.getTitle[1297] - Page title is: [iPhone 15 - Google Shopping]
+[INFO] 12:29:57 Hooks.afterEachScenario[82] - !!!!! Scenario Name: [Nr1] Status -- [Pass] !!!!!
+[INFO] 12:29:57 Hooks.afterAll[105] - Report flush.
+[INFO] 12:29:57 Hooks.afterAll[106] - [TagName] is [@Test_4444]]
+[INFO] 12:29:57 Hooks.afterAll[107] - [DeploymentVersion] is [dgw536454ww6fds]
+[INFO] 12:29:57 Hooks.afterAll[108] - [TotalTests] is [2]
+[INFO] 12:29:57 Hooks.afterAll[109] - [PassedTests] is [2]
+[INFO] 12:29:57 Hooks.afterAll[110] - [SkippedTests] is [0]
+[INFO] 12:29:57 Hooks.afterAll[111] - [FailedTests] is [0]
+[INFO] 12:29:57 Hooks.afterAll[118] - [BuildStatus] is [All tests are passing]
+[ERROR] 12:29:58 PlaygroundTest.sendEmail[220] - Failed to send email. Exception: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 00721157ae682-6209e26eb50sm57855567b3.67 - gsmtp
+
+[ERROR] 12:38:01 PlaygroundTest.sendEmail[220] - Failed to send email. Exception: 535 Authentication credentials invalid
+
+[INFO] 12:54:36 Hooks.beforeEachScenario[42] - ###### Scenario: [Nr1] ######
+[INFO] 12:54:36 Hooks.beforeEachScenario[42] - ###### Scenario: [Nr1] ######
+[WARN] 12:54:36 SystemVsConfigProp.getProperty[26] - Value for property [Browser] is [ChromeOnLocal]
+[WARN] 12:54:36 SystemVsConfigProp.getProperty[26] - Value for property [Browser] is [ChromeOnLocal]
+[WARN] 12:54:36 SystemVsConfigProp.getProperty[26] - Value for property [Environment] is [CloudStage]
+[WARN] 12:54:36 SystemVsConfigProp.getProperty[26] - Value for property [Environment] is [CloudStage]
+[INFO] 12:54:36 Hooks.beforeEachScenario[58] - browserName: [ChromeOnLocal]
+[INFO] 12:54:36 Hooks.beforeEachScenario[58] - browserName: [ChromeOnLocal]
+[INFO] 12:54:36 Hooks.beforeEachScenario[59] - environmentName: [CloudStage]
+[INFO] 12:54:36 Hooks.beforeEachScenario[59] - environmentName: [CloudStage]
+[WARN] 12:54:38 SystemVsConfigProp.getProperty[26] - Value for property [GOOGLEURL] is [https://www.google.com]
+[WARN] 12:54:38 SystemVsConfigProp.getProperty[26] - Value for property [GOOGLEURL] is [https://www.google.com]
+[INFO] 12:54:38 GoogleSearchPage.loadPage[22] - Successfully loaded Google page
+[INFO] 12:54:38 GoogleSearchPage.loadPage[24] - Session ID is: [7e7b27dc0219158a60a4fa2449bea037]
+[INFO] 12:54:39 GoogleSearchPage.loadPage[22] - Successfully loaded Google page
+[INFO] 12:54:39 GoogleSearchPage.loadPage[24] - Session ID is: [0a0afe5357792f5aba6989ff9d568f77]
+[INFO] 12:54:39 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 12:54:39 SeleniumUtils.clearData[267] - Field [searchBox] has been cleared successfully
+[INFO] 12:54:39 Removed the highlight of the element [searchBox]
+[INFO] 12:54:39 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 12:54:39 SeleniumUtils.enterData[292] - Entering the text [iPhone 15] in the field [searchBox]
+[INFO] 12:54:39 SeleniumUtils.clearData[267] - Field [searchBox] has been cleared successfully
+[INFO] 12:54:39 Removed the highlight of the element [searchBox]
+[INFO] 12:54:39 Removed the highlight of the element [searchBox]
+[INFO] 12:54:39 SeleniumUtils.enterData[292] - Entering the text [iPhone 15] in the field [searchBox]
+[INFO] 12:54:39 Removed the highlight of the element [searchBox]
+[INFO] 12:54:39 SeleniumUtils.click[152] - Clicked [searchButton] element
+[INFO] 12:54:39 SeleniumUtils.click[152] - Clicked [searchButton] element
+[INFO] 12:54:40 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 12:54:41 SeleniumUtils.waitForPageToLoad[2123] - Page has been fully loaded
+[INFO] 12:54:42 SeleniumUtils.click[152] - Clicked [shoppingHeader] element
+[INFO] 12:54:42 GoogleSearchPage.searchOnGoogle[33] - Works as expected!
+[INFO] 12:54:43 SeleniumUtils.getTitle[1297] - Page title is: [iPhone 15 - Google Shopping]
+[INFO] 12:54:43 Hooks.afterEachScenario[82] - !!!!! Scenario Name: [Nr1] Status -- [Pass] !!!!!
+[ERROR] 12:54:50 SeleniumUtils.highlightElement[181] - Cannot highlight the element [shoppingHeader]. Exception: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'Shopping')]"}
+  (Session info: chrome=124.0.6367.209)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0a0afe5357792f5aba6989ff9d568f77, findElement {using=xpath, value=//div[contains(text(),'Shopping')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.209, chrome: {chromedriverVersion: 124.0.6367.207 (a9001a6e39f..., userDataDir: C:\Users\ALEXAN~1.AND\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60658}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60658/devtoo..., se:cdpVersion: 124.0.6367.209, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0a0afe5357792f5aba6989ff9d568f77
+[INFO] 12:54:53 Hooks.afterEachScenario[82] - !!!!! Scenario Name: [Nr1] Status -- [Fail] !!!!!
+[INFO] 12:54:53 Hooks.afterAll[105] - Report flush.
+[INFO] 12:54:53 Hooks.afterAll[106] - [TagName] is [@Test_4444]]
+[INFO] 12:54:53 Hooks.afterAll[107] - [DeploymentVersion] is [dgw536454ww6fds]
+[INFO] 12:54:53 Hooks.afterAll[108] - [TotalTests] is [2]
+[INFO] 12:54:53 Hooks.afterAll[109] - [PassedTests] is [1]
+[INFO] 12:54:53 Hooks.afterAll[110] - [SkippedTests] is [0]
+[INFO] 12:54:53 Hooks.afterAll[111] - [FailedTests] is [1]
+[INFO] 12:54:53 Hooks.afterAll[118] - [BuildStatus] is [Still Failing]
+[ERROR] 12:54:53 PlaygroundTest.sendEmail[169] - Failed to send email. Exception: 535 Authentication credentials invalid
+
